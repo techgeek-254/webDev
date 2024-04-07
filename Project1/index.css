@@ -1,0 +1,170 @@
+body {
+    background-color: rgb(245, 243, 243);
+    font-family: 'Roboto', sans-serif;
+    margin: auto 9% 9% 9%;
+}
+
+h1 {
+    text-align: center;
+
+}
+
+#logo {
+    border-radius: 10px;
+    width: 50px;
+    height: 40px;
+    font-size: 5px;
+}
+
+#para1 {
+    text-align: left;
+}
+
+a {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+h4 {
+    border-color: rgb(226, 237, 248);
+    border-width: 1px;
+    border-style: solid;
+    padding: 1%;
+    background-color: rgb(246, 193, 248);
+    border-radius: 5px;
+}
+
+div {
+    background-color: rgb(255, 255, 255);
+}
+
+#next {
+    text-align: center;
+}
+
+#previous {
+    text-align: center;
+}
+
+#footer1 {
+    font-weight: 500;
+    font-size: small;
+    background-color: rgba(47, 4, 77, 0.493);
+    text-align: center;
+    color: rgb(255, 255, 255);
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    /** margin-top: auto; **/
+}
+
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+}
+
+.sampleClass {
+    color: black;
+    background-color: rgb(214, 247, 247);
+    border-radius: 5px;
+}
+
+.boxShadow {
+    background-color: rgb(220, 194, 245);
+    padding: 30px 100px;
+    display: inline-block;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.1);
+    margin: 3%;
+    border-radius: 5px;
+}
+
+image {
+    display: flexbox;
+    width: 20px;
+    height: 20px;
+}
+
+#test {
+    height: 250px;
+    width: 250;
+    display: flexbox;
+    margin: 15px;
+    border-radius: 15px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.5);
+    object-fit: cover;
+}
+
+section {
+    text-align: center;
+}
+
+img {
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+    height: 270px;
+    width: 500px;
+    object-fit: cover;
+}
+
+div p {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+div h6 {
+    font-weight: normal;
+    font-size: 15px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: 20px;
+    text-align: justify;
+
+}
+
+#cities {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px 20px;
+    text-align: center;
+    background-color: rgb(245, 243, 243);
+}
+
+h5 {
+    text-align: center;
+}
+
+#p1 {
+    text-align: justify;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    padding: 0;
+
+}
+
+li {
+    padding: 10px;
+
+}
+
+nav {
+    background-color: rgba(247, 134, 6, 0.411);
+    position: fixed border-radius: 6px;
+}
+
+header nav #nav li:hover {
+    background-color: rgb(245, 245, 240);
+    ;
+}
+
+header {
+    overflow: hidden;
+
+}

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form_Sample</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <form action="/user-data" method="POST" >
+        <label for="username">User Name:</label>
+        <input type="text" name="user-name" id="username" />
+
+        <label for="pass-word">Password:</label>
+        <input type="password" name="pass-word" id="pass-word" required minlength="12"/><br>
+
+        <label for="emailaddress">Email Address</label>
+        <input type="email" name="email-address" id="emailaddress" placeholder="e.g abc@gmail.com">
+
+        <label for="y-o-b">Year of Birth</label>
+        <input type="date" name="yob" id="y-o-b" >
+
+        <label for="passport">Your passport #</label>
+        <input type="number" name="pass-port" id="passport">
+
+        <label for="id-no">Attach ID</label>
+        <input type="file" name="idno" id="id-no" required>
+
+        <label for="comments">Your Comments:</label>
+        <textarea name="notes" id="comments"></textarea>
+        
+        <label for="fruits">Choose your favorite Fruit</label>
+        <select id="fruits" name="fruits-selection">
+            <option value="">Mango</option>
+            <option value="">Orange</option>
+            <option value="">Banana</option>
+        </select>
+        <hr>
+        <h3>How can we contact you ?</h3>
+
+        <div class="form-control-inline">
+            <input type="radio" id="sms" name="contact-you" value="text-message">
+            <label for="sms">Text (SMS)</label>
+
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" id="email" name="contact-you" value="email-address">
+            <label for="email">Email</label>
+
+        </div>
+        <div class="form-control-inline">
+            <input type="radio" id="call" name="contact-you" value="phone-call">
+            <label for="call">Phone Call</label>
+        </div>
+        <hr>
+        <div class="form-control-inline">
+            <input type="checkbox" id="terms" name="terms-conditions">
+            <label for="terms">Agree to Terms ?</label>
+        </div>
+        <hr>
+        <div class="form-control-inline">
+            <input type="checkbox" id="telephone" name="verif" value="phone-call">
+            <label for="Telephone">Telephone</label>
+        </div>
+
+        <div class="form-control-inline">
+            <input type="checkbox" id="text" name="verif" value="sms-message">
+            <label for="text">SMS</label>
+        </div>
+
+
+        <button>Submit</button>
+        <button type="reset">Reset</button>
+    </form>
+</body>
+
+</html>

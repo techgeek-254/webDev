@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact us</title>
+    <link rel="stylesheet" href="/Project6/index-LPT-ICT-008271.css">
+</head>
+
+<body>
+    <h2>Contact us</h2>
+    <form action="" method="post">
+        <h3>How can we help you ?</h3>
+
+        <label for="names">Your name</label>
+        <input type="text" id="names" name="fullnames" required>
+
+        <label for="email">Your Email address</label>
+        <input type="email" id="email" name="email-addr" required>
+
+        <label for="phone">Your Mobile Number</label>
+        <input type="tel" name="phone-number" id="phone" max="10" placeholder="e.g 0720123456" maxlength="13"
+            minlength="10">
+
+        <label for="comments">Your Message</label>
+        <textarea name="message" id="comments" cols="30" rows="10" minlength="50" maxlength="200"></textarea>
+
+        <label for="locate">How did you find us ?</label>
+        <select name="locate-us" id="locate" required>
+            <option value="locate">Website</option>
+            <option value="locate">Facebook</option>
+            <option value="locate">Instagram</option>
+        </select>
+<!--
+        <h3>How Should we reply ?</h3>
+        <section>
+            <ul>
+                <li class="control-list">
+                    <input type="radio" name="reply" id="call-me" value="phone">
+                    <label for="call-me">Call me back</label>
+                </li>
+
+                <li class="control-list">
+                    <input type="radio" id="email-me" name="reply" value="email">
+                    <label for="email-me">Send me Email</label>
+                </li>
+                <li class="control-list">
+                    <input type="radio" id="no-reply" name="reply" value="dont-reply">
+                    <label for="no-reply">Don't reply</label>
+                </li><br>
+                <li class="control-list">
+                    <input type="checkbox" id="Terms" name="accept-terms" required>
+                    <label for="Terms">Accept Terms </label>
+                </li>
+            </ul>
+        </section>
+    --><br>
+        <section>
+            <button type="submit">Submit</button>
+            <button type="reset">Clear</button>
+        </section>
+        
+    </form>
+
+</body>
+
+</html>

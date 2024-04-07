@@ -1,0 +1,105 @@
+html {
+    background-color: rgb(17, 10, 4);
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+    background-color: rgb(44, 38, 29);
+    display: flex;
+    justify-content: space-between;
+    height: 5rem;
+    align-items: center;
+    padding: 0 1.25rem;
+}
+
+header ul {
+    list-style: none;
+    display: flex;
+}
+
+header li {
+    margin: 0 1rem;
+}
+
+header h2 {
+    color: orange;
+
+}
+
+section ul {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    color: white;
+    text-align: center;
+    list-style: none;
+
+}
+
+img {
+    width: 26.25rem;
+    height: 18.75rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+section a {
+    text-decoration: none;
+    background-color: orange;
+    padding: 0.625rem;
+    border-radius: 0.3125rem;
+    color: rgb(0, 0, 0);
+}
+
+section a:hover {
+    background-color: rgb(243, 188, 86);
+}
+
+main h1 {
+    text-align: center;
+    color: orange;
+}
+
+nav a {
+    color: orange;
+    text-decoration: none;
+    padding: 0.625rem;
+    border-radius: 0.5rem;
+}
+
+nav a:hover {
+    /*background-color: rgba(246, 162, 6, 0.366); */
+    color: rgb(241, 191, 38);
+}
+
+section {
+    margin: 0 18.125rem;
+}
+
+article {
+    background-color: orange;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 1.5rem;
+    color: rgb(99, 90, 90);
+    background-color: rgb(44, 38, 29);
+    text-align: center;
+    font-size: small;
+}
+
+@media (max-width: 768px) {
+    section ul {
+        grid-template-columns: 100%;
+        align-items: center;
+    }
+}
+
+h3:hover {
+    transform: scale(1.05);
+    transition: 1.0s;
+}

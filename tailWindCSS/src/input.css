@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer components {
+    .btn {
+        @apply bg-fuchsia-950 text-white rounded-full px-5 py-1 m-5 hover:bg-fuchsia-900 shadow font-sans hover:border-fuchsia-300 focus:outline-none focus:ring-2 focus:ring-red-600 focus:ring-offset-2 text-sm;
+    }
+}
+
+@layer base  {
+    body {
+        @apply mx-20;
+    }
+    
+}

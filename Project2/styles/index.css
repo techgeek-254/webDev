@@ -1,0 +1,105 @@
+body {
+    font-family: 'Oswald', sans-serif;
+    margin: 0px;
+
+}
+
+header {
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    font-size: 20px;
+}
+
+li {
+    margin-left: 15px;
+
+}
+
+#top h2 {
+    font-size: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+#hero a {
+    text-decoration: none;
+    background-color: rgb(244, 244, 19);
+    padding: 10px;
+    border-radius: 24px;
+    font-weight: bold;
+    color: rgb(16, 3, 77);
+    box-shadow: 2px 2px 2px rgba(242, 236, 236, 0.5);
+}
+
+#hero {
+    height: 800px;
+    background-image: url(/Project2/images/nairobipark.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#center {
+    background-color: rgba(47, 47, 39, 0.7);
+    text-align: center;
+    width: 600px;
+    height: 140px;
+    border-radius: 8px;
+    box-shadow: 4px 4px 3px rgba(106, 92, 92, 0.616);
+    padding: 50px 0;
+    margin: 0 auto;
+    position: relative;
+    top: 200px;
+    color: white;
+
+}
+
+#center h1 {
+    text-transform: uppercase;
+    font-size: 45px;
+    margin: 0;
+}
+
+#center p {
+    text-transform: uppercase;
+    font-size: 20px;
+}
+
+#center a:hover {
+    background-color: rgb(225, 239, 101);
+    color: rgb(15, 14, 14);
+}
+
+#highlights li {
+    height: 300px;
+    width: 600px;
+    display: flex;
+}
+
+h1 {
+    text-align: center;
+    font-size: 50px;
+    text-shadow: 2px 2px 2px rgba(16, 3, 77, 0.4);
+}
+
+li img {
+    border-radius: 12px;
+    object-fit: cover;
+    box-shadow: 4px 4px 4px rgba(16, 3, 77, 0.7);
+}
+
+#highlights {
+    margin-bottom: 100px;
+}

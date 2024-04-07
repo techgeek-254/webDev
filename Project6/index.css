@@ -1,0 +1,15 @@
+section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    row-gap: 20px;
+}
+
+@media (max-width: 244px){
+    img {
+        height: 150px;
+        width: 250px;
+    }
+    section {
+        grid-template-columns: 1fr;
+    }
+}
