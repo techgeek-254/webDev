@@ -88,11 +88,12 @@ image {
     display: flexbox;
     width: 20px;
     height: 20px;
+    object-fit: cover;
 }
 
 #test {
-    height: 250px;
-    width: 250;
+    height: 200px;
+    width: 100;
     display: flexbox;
     margin: 15px;
     border-radius: 15px;
