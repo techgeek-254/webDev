@@ -8,35 +8,35 @@ body {
   background-size: cover;
   font-family: "Roboto", sans-serif;
 }
-nav{
+nav {
   display: block;
 }
 li {
-  width: 120px;
-  padding: 6px;
+  width: 140px;
+  padding: 2px;
   color: rgb(255, 255, 255);
   list-style: none;
   display: inline-flex;
 }
 
 ul {
-  background-color: rgb(53, 32, 1);
+  background-color: rgba(161, 97, 1, 0.479);
   text-align: center;
-  color: black;
+  color: rgb(7, 7, 7);
   display: flex;
-  padding: 0;
 }
-
-a {
+nav ul li a {
   text-decoration: none;
-  padding: 10px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 10px;
+  padding-bottom: 10px;
 }
-
 a:visited,
 a:hover {
-  background-color: rgba(252, 164, 2, 0.571);
-  color: white;
-  border-radius: 3px;
+  background-color: rgb(216, 141, 1);
+  color: rgb(255, 255, 255);
+  border-radius: 6px;
 }
 #demo .carousel-inner .carousel-item img {
   position: relative;
@@ -49,11 +49,33 @@ a:hover {
   object-fit: cover;
   overflow: hidden;
   padding: 0 250px;
-  
 }
 #faevaLogo {
-  height: 40px;
-  width: 60px;
+  height: 30px;
+  width: 50px;
   border-radius: 10px;
   border-style: solid;
+}
+#mainBody {
+  color: white;
+  padding: 50px;
+  margin: auto;
+  width: 100%;
+  font-family: sans-serif;
+  text-align: justify;
+}
+.titleMain {
+  color: white;
+  text-align: center;
+}
+footer {
+  width: 100%;
+  position: absolute;
+  background: rgba(155, 93, 0, 0.471);
+  color: rgb(255,255,255);
+  margin: auto;
+  text-align: center;
+  border: 0;
+  font-size: x-small;
+  
 }
