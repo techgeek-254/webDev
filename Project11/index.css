@@ -1,0 +1,45 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url(./background.jpg);
+  background-size: cover;
+  font-family: "Roboto", sans-serif;
+}
+
+li {
+  width: 120px;
+  padding: 6px;
+  color: rgb(255, 255, 255);
+  list-style: none;
+  display: inline-flex;
+}
+
+ul {
+  background-color: rgb(41, 41, 41);
+  text-align: center;
+  color: black;
+}
+
+a {
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:visited,
+a:hover {
+  background-color: rgba(252, 164, 2, 0.571);
+  color: white;
+  border-radius: 3px;
+}
+#demo .carousel-inner .carousel-item img {
+  position: relative;
+  width: 100px;
+  height: 500px;
+  object-fit: cover;
+}
+#demo {
+  object-fit: cover;
+}
