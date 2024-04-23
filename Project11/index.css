@@ -8,7 +8,9 @@ body {
   background-size: cover;
   font-family: "Roboto", sans-serif;
 }
-
+nav{
+  display: block;
+}
 li {
   width: 120px;
   padding: 6px;
@@ -18,9 +20,11 @@ li {
 }
 
 ul {
-  background-color: rgb(41, 41, 41);
+  background-color: rgb(53, 32, 1);
   text-align: center;
   color: black;
+  display: flex;
+  padding: 0;
 }
 
 a {
@@ -39,7 +43,17 @@ a:hover {
   width: 100px;
   height: 500px;
   object-fit: cover;
+  overflow: hidden;
 }
 #demo {
   object-fit: cover;
+  overflow: hidden;
+  padding: 0 250px;
+  
+}
+#faevaLogo {
+  height: 40px;
+  width: 60px;
+  border-radius: 10px;
+  border-style: solid;
 }
