@@ -11,7 +11,7 @@ body {
 nav {
   display: block;
 }
-li {
+#list1 li {
   width: 140px;
   padding: 2px;
   color: rgb(255, 255, 255);
@@ -19,7 +19,7 @@ li {
   display: inline-flex;
 }
 
-ul {
+#list1 {
   background-color: rgba(161, 97, 1, 0.479);
   text-align: center;
   color: rgb(7, 7, 7);
@@ -77,5 +77,17 @@ footer {
   text-align: center;
   border: 0;
   font-size: x-small;
-  
+}
+.subMenu1{
+  display: none;
+}
+#list1 li:hover .subMenu1 {
+display: block;
+position: absolute;
+background-color: rgb(216, 141, 1);
+margin-top: 15px;
+margin-left: -15px;
+}
+#list1 li:hover .subMenu1 ul {
+  display: block;
 }
