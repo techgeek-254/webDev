@@ -32,10 +32,12 @@ nav ul li a {
   padding-top: 10px;
   padding-bottom: 10px;
 }
-a:visited,
-a:hover {
-  background-color: rgb(216, 141, 1);
+a:visited{
   color: rgb(255, 255, 255);
+}
+a:hover {
+  background-color: rgb(215, 215, 215);
+  color: rgb(15, 14, 14);
   border-radius: 6px;
 }
 #demo .carousel-inner .carousel-item img {
@@ -71,7 +73,7 @@ a:hover {
 footer {
   width: 100%;
   position: absolute;
-  background: rgba(155, 93, 0, 0.471);
+  background: rgba(52, 0, 112, 0.471);
   color: rgb(255,255,255);
   margin: auto;
   text-align: center;
