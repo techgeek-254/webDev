@@ -71,6 +71,11 @@ a:hover {
   color: white;
   text-align: center;
 }
+
+.titleMain:hover {
+  transform: scale(1.05);
+  transition: 1.0s;
+}
 footer {
   width: 100%;
   position: absolute;
@@ -93,4 +98,9 @@ footer {
 }
 #list1 li:hover .subMenu1 ul {
   display: block;
+}
+.myForm{
+  margin: auto;
+  width: 50%;
+  background-color: aliceblue;
 }
