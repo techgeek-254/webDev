@@ -48,7 +48,8 @@
       <!--Start of Form Section-->
 <div class="myForm">
   <form action="#" method="post">
-  <label for="names">Name(s) </label>
+  <div id="formElements">
+    <label for="names">Name(s) </label>
   <input type="text" name="name" id="names" required maxlength="100"/>
 
   <label for="email">Email </label>
@@ -56,7 +57,7 @@
 
   <label for="comment">Comment</label>
   <textarea name="comment" id="comment" required maxlength="500"></textarea>
-
+</div>
   <!--Button Section-->
   <div class="myButtons">
     <button id="mySubmit" type="submit">Submit</button>
