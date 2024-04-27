@@ -74,7 +74,7 @@ a:hover {
 
 .titleMain:hover {
   transform: scale(1.05);
-  transition: 1.0s;
+  transition: 1s;
 }
 footer {
   width: 100%;
@@ -99,17 +99,40 @@ footer {
 #list1 li:hover .subMenu1 ul {
   display: block;
 }
-.myForm{
+.myForm {
   margin: auto;
-  width: 50%;
+  margin-top: 5%;
+  margin-bottom: 9%;
+  width: 60%;
   height: 400px;
-  background-color: rgba(255, 255, 255, 0.486);
+  background-color: rgba(255, 255, 255, 0.547);
+  border-radius: 8px;
+}
+label,
+input,
+textarea {
+  padding: 5px 20px;
+  width: 10%;
+  height: 34px;
+  font-size: 12px;
+  color: #1a1919;
+  border: none;
+  box-sizing: border-box;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+input {
+  width: 30%;
+  font-size: 12px;
 }
 label{
-  padding: 5px 20px;
-    width: 20%;
-    height: 34px;
-    font-size: 14px;
-    color: #1a1919;
-    border: none;
+  width: 10%;
+  font-weight: bold;
+  font-size: 12px;
+}
+textarea{
+  width: 71%;
+  height: 200%;
+  font-size: small;
+  padding-right: 10px;
 }
