@@ -1,8 +1,8 @@
-* {
+/** {
   margin: 0;
   padding: 0;
 }
-
+*/
 body {
   background-image: url(./background.jpg);
   background-size: cover;
@@ -103,7 +103,7 @@ footer {
 }
 .myForm form{
   margin: auto;
-  margin-top: 5%;
+  margin-top: 20px;
   margin-bottom: 9%;
   width: 700px;
   height: 350px;
@@ -111,6 +111,13 @@ footer {
   border-radius: 8px;
   
 } 
+#frmTitle {
+  margin: auto;
+  width: 700px;
+  padding-top: 3%;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
 #formElements{
   margin: auto;
   margin-right: 0px;
