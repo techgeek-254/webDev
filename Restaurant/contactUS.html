@@ -49,13 +49,13 @@
 <div class="myForm">
   <form action="#" method="post">
   <label for="names">Name(s) </label>
-  <input type="text" name="name" id="names" />
+  <input type="text" name="name" id="names" required maxlength="100"/>
 
   <label for="email">Email </label>
-  <input type="email" name="email" id="email" /><br>
+  <input type="email" name="email" id="email" required maxlength="100"/><br>
 
   <label for="comment">Comment</label>
-  <textarea name="comment" id="comment"></textarea>
+  <textarea name="comment" id="comment" required maxlength="500"></textarea>
 
   <!--Button Section-->
   <div class="myButtons">
