@@ -76,9 +76,11 @@ a:hover {
   transform: scale(1.05);
   transition: 1s;
 }
+
 footer {
   width: 100%;
-  position: absolute;
+  position: fixed;
+  bottom: 0;
   background: rgba(52, 0, 112, 0.471);
   color: rgb(255, 255, 255);
   margin: auto;
@@ -104,8 +106,8 @@ footer {
   margin-top: 5%;
   margin-bottom: 9%;
   width: 60%;
-  height: 400px;
-  background-color: rgb(255, 255, 255);
+  height: 350px;
+  background-image: linear-gradient(to right, #facc7ca7, #f8cb70ae, #f6c864b6, #f3c757b3, #f0c349ac);
   border-radius: 8px;
 } 
 label,
@@ -138,22 +140,42 @@ input:focus{
 label{
   width: 10%;
   font-weight: bold;
-  font-size: 12px;
+  font-size: 16px;
   padding-right: 50px;
+  
 }
 textarea{
   width: 76%;
   height: 150px;
+  max-height: 500px;
   font-size: 1px;
   padding-right: 10px;
   line-height: 1.42857143;
   border: 1px solid #ccc; 
   box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
   transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s;
+  color: rgb(43, 43, 43);
 }
 
 textarea:focus{
   outline: none !important;
   border: 1px rgba(161, 97, 1, 0.377) solid;
   box-shadow: 0 0 10px #ecb97e;
+}
+.myButtons{
+  margin: auto;
+  width: 300px;
+  padding-top: 50px;
+}
+#mySubmit{
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  width: 100px;
+}
+#myReset{
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin: 0 10px;
+  width: 100px;
 }
