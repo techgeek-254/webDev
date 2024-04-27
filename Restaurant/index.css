@@ -310,8 +310,28 @@ textarea:focus{
 }
 #meals {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 20px;
   text-align: center;
-  background-color: rgb(245, 243, 243);
+  background-color: rgb(255, 246, 246);
+  margin: 50px;
+  border-radius: 6px;
+}
+#meals img {
+  border-radius: 10px;
+  box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.5);
+  height: 270px;
+  width: 420px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+#meals h6 {
+  background-color: rgb(238, 238, 238);
+}
+#food {
+  background-color: #ffbb6254;
+}
+#food p{
+  font-weight: bold;
 }
