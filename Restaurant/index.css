@@ -396,4 +396,10 @@ textarea:focus{
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 20px 20px;
+  color: white;
+}
+.menuList {
+  color: white;
+  text-align: center;
+  width: 30%;
 }
