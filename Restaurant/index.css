@@ -313,7 +313,7 @@ textarea:focus{
   grid-template-columns: 1fr 1fr 1fr;
   gap: 20px 20px;
   text-align: center;
-  background-color: rgb(255, 246, 246);
+  background-color: rgb(14, 1, 44);
   margin: 50px;
   border-radius: 6px;
 }
@@ -327,11 +327,22 @@ textarea:focus{
 }
 
 #meals h6 {
-  background-color: rgb(238, 238, 238);
+  background-color: rgb(254, 229, 188);
+  border-radius: 6px;
+  padding: 2px;
+  font-family: 'Times New Roman', Times, serif;
+  text-align: justify;
+  
 }
 #food {
-  background-color: #ffbb6254;
+  background-color: rgb(238, 238, 238);
+  border-radius: 6px;
 }
 #food p{
   font-weight: bold;
+}
+#food:hover{
+  cursor:pointer;
+  box-shadow: 0 0 15px #fff702;
+  background-color: #e4f8fc;
 }
