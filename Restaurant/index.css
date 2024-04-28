@@ -378,3 +378,22 @@ textarea:focus{
 }
 
 /* MENU Page styling */
+#fmenu p {
+  font-size: 50px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 0;
+  padding-bottom: 0;
+}
+#fvmenu p{
+  font-size: 15px;
+  color: white;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+.theMenu {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px 20px;
+}
