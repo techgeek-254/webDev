@@ -1,60 +1,64 @@
 html {
-    background-color: rgb(238, 243, 249);
-    color: rgb(54, 53, 53);
-    font-family: sans-serif;
+  background-color: rgb(238, 243, 249);
+  color: rgb(54, 53, 53);
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif
 }
 
 body h2 {
-    text-align: center;
+  text-align: center;
 }
 
 form {
-    margin: auto;
-    width: 35%;
-    padding: 2.5rem;
-    background-color: rgb(211, 233, 244);
-    border-radius: 1.8rem;
-    box-shadow: 0px 2px 8px rgba(0, 0, 0,0.2);
+  margin: auto;
+  width: 35%;
+  padding: 2.5rem;
+  background-color: rgb(211, 233, 244);
+  border-radius: 0.2rem;
+  box-shadow: 0px 2px 8px rgba(12, 143, 244, 0.57);
 }
 
 label {
-    display: block;
-    margin: 0.35rem 0;
+  display: block;
+  margin: 0.35rem 0;
 }
 
 textarea {
-    resize: none;
-    width: 100%;
-    height: 5rem;
+  resize: none;
+  width: 100%;
+  height: 5rem;
 }
 
 input,
 select,
 textarea {
-    padding: 0.3rem;
-    width: 100%;
-    box-sizing: border-box;
-    font-family: inherit;
-
+  padding: 0.3rem;
+  width: 100%;
+  box-sizing: border-box;
+  font-family: inherit;
+  transition: 0.5s;
+  border: 1px solid black;
+  border-radius: 4px;
 }
-button{
-    border: none;
-    padding: 0.35rem 2rem;
-    border-radius: 0.2rem;
+
+button {
+  border: none;
+  padding: 0.35rem 2rem;
+  border-radius: 0.2rem;
 }
 
 .control-list {
-    display: flex;
+  display: flex;
 }
 
-.control-list input{
-width: auto;    
+.control-list input {
+  width: auto;
 }
-ul{
-    list-style: none;
+ul {
+  list-style: none;
 }
 
-.control-list label{
-    margin: 0;  
-    margin-left: 0.5rem; 
-    }
+.control-list label {
+  margin: 0;
+  margin-left: 0.5rem;
+}
+
