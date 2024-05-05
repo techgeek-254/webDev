@@ -1,0 +1,13 @@
+img{
+    height: 400px;
+    width: 800px;
+    text-align: center;
+    border-radius: 10px;
+    overflow: hidden;
+    object-fit: cover;
+}
+#carouselExampleAutoplaying{
+    margin: auto;
+    width: 50%;
+    margin-top: 20px;
+}
