@@ -14,3 +14,10 @@ document.getElementById("myP").textContent = "Lorem ipsum Lorem ipsum Lorem ipsu
 let isStudent = false;
 console.log(`This is a student: ${isStudent}`);
 
+// Accepting User Input
+
+let username;
+username = prompt("Whats your username ?");
+console.log(username);
+document.getElementById("input").textContent = `Welcome, ${username}`;
+
