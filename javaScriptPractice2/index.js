@@ -14,7 +14,7 @@ document.getElementById("myP").textContent = "Lorem ipsum Lorem ipsum Lorem ipsu
 let isStudent = false;
 console.log(`This is a student: ${isStudent}`);
 
-// Accepting User Input
+// Accepting User Input //
 
 let username;
 username = prompt("Whats your username ?");
