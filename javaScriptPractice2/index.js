@@ -21,3 +21,4 @@ username = prompt("Whats your username ?");
 console.log(username);
 document.getElementById("input").textContent = `Welcome, ${username}`;
 
+//
