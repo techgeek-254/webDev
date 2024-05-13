@@ -14,11 +14,16 @@ document.getElementById("myP").textContent = "Lorem ipsum Lorem ipsum Lorem ipsu
 let isStudent = false;
 console.log(`This is a student: ${isStudent}`);
 
-// Accepting User Input //
+/* Accepting User Input 
 
 let username;
 username = prompt("Whats your username ?");
 console.log(username);
-document.getElementById("input").textContent = `Welcome, ${username}`;
+document.getElementById("input").textContent = `Welcome, ${username}`;*/
 
-//
+//Accepting User Input using a Function
+let username;
+document.getElementById("mySubmit").onclick = function(){
+    username = document.getElementById("myInput").value;
+    document.getElementById("myH1").textContent=`Hello, ${username}`
+}
