@@ -38,5 +38,17 @@ document.getElementById("mySubmit").onclick=function (){
     radius = document.getElementById("myInput").value;
     radius = Number(radius);
     circumference = 2 * PI * radius;
-    document.getElementById("myH3").textContent = `The circumference is ${circumference}`;
+    document.getElementById("myH3").textContent = `The circumference is ${circumference} cm`;
 }
+/***************************************************************************************** */
+//USING THE MATH FUNCTION
+
+let a = 5;
+let b = 90;
+let c = 15;
+
+let max = Math.max(a,b,c);
+let min = Math.min(a,b,c);
+
+console.log(`The highest value is ${max}`);
+console.log(`The lowest value is ${min}`);
