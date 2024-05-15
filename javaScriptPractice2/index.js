@@ -52,3 +52,9 @@ let min = Math.min(a,b,c);
 
 console.log(`The highest value is ${max}`);
 console.log(`The lowest value is ${min}`);
+/****************************************************************************************** */
+
+//RANDOM NUMBER GENERATOR
+
+let randomNum = Math.floor (Math.random() * 50);
+console.log(randomNum);
