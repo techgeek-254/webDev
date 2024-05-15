@@ -58,3 +58,15 @@ console.log(`The lowest value is ${min}`);
 
 let randomNum = Math.floor (Math.random() * 50);
 console.log(randomNum);
+
+/******************************************************************************************* */
+//IF STATEMENTS
+
+ let age = 35;
+
+ if (age < 18){
+    console.log("You are NOT allowed to VOTE !")
+ }
+ else{
+    console.log("You are ALLOWED to Vote !")
+ }
