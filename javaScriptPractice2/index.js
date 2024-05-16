@@ -78,7 +78,7 @@ else {
     console.log("You are ALLOWED to Vote !")
 }
 
-//IF STATEMENTS e.g 1
+//IF STATEMENTS e.g 1 with DOM
 
 const myText = document.getElementById("myText");
 const mySubmit1 = document.getElementById("mySubmit1");
@@ -87,7 +87,7 @@ let ageS;
 
 mySubmit1.onclick = function () {
     ageS = myText.value;
-    ageS = Number(ageS);
+    //ageS = Number(ageS);
 
     if (ageS >= 18) {
         myResult.textContent = `Access Granted`;
