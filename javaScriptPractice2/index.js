@@ -156,38 +156,38 @@ console.log(theMessage);
 
 let days = 7;
 
-    switch (days) {
-        case 1:
-            console.log("It is Monday");
-            break;
-    
-        case 2:
-            console.log("It is Tuesday");
-            break;
-    
-        case 3:
-            console.log("It is Wednesday");
-            break;
-    
-        case 4:
-            console.log("It is Thursday");
-            break;
-    
-        case 5:
-            console.log("It is Friday");
-            break;
-    
-        case 6:
-            console.log("It is Saturday");
-            break;
-    
-        case 7:
-            console.log("It is Sunday");
-            break;
-    
-        default:
-            console.log(`${days} is not a day of the week`);
-    }
+switch (days) {
+    case 1:
+        console.log("It is Monday");
+        break;
+
+    case 2:
+        console.log("It is Tuesday");
+        break;
+
+    case 3:
+        console.log("It is Wednesday");
+        break;
+
+    case 4:
+        console.log("It is Thursday");
+        break;
+
+    case 5:
+        console.log("It is Friday");
+        break;
+
+    case 6:
+        console.log("It is Saturday");
+        break;
+
+    case 7:
+        console.log("It is Sunday");
+        break;
+
+    default:
+        console.log(`${days} is not a day of the week`);
+}
 
 /*******************************************************************************************/
 //STRING METHODS
@@ -199,7 +199,14 @@ userNames = userNames.toUpperCase(); //converts string to uppercase
 console.log(userNames);
 
 let phoneNumbers = "0700-258-0025";
-phoneNumbers = phoneNumbers.replaceAll("-",""); //removes characters and replaces them
+phoneNumbers = phoneNumbers.replaceAll("-", ""); //removes characters and replaces them
 console.log(phoneNumbers);
 /*******************************************************************************************/
 
+// WHILE LOOPS e.g.1
+
+let yourName = "";
+while (yourName === "") {
+    yourName = window.prompt(`Enter your Name`);
+}
+console.log(`Hello ${yourName}`);
