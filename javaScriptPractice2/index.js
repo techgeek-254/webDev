@@ -109,7 +109,27 @@ mySubmit1.onclick = function () {
 // CHECKED ELEMENTS in JS
 
 const myChecked = document.getElementById("myChecked");
+const subscribe = document.getElementById("subscribe");
 const myOption1 = document.getElementById("myOption1");
 const myOption2 = document.getElementById("myOption2");
 const myOption3 = document.getElementById("myOption3");
+const checkedBtn = document.getElementById("checkedBtn");
+const myCheckedResult = document.getElementById("myCheckedResult");
+const myOptionResult = document.getElementById("myOptionResult");
 
+checkedBtn.onclick = function () {
+
+    if (myChecked.checked) {
+        myCheckedResult.textContent = `You have SUBSCRIBED`;
+
+    }
+    else {
+        myCheckedResult.textContent = `You are NOT SUBSCRIBED`;
+
+    }
+    if (myOption1.checked) {
+        myOptionResult.textContent = `You have Selected PayPal`
+    }
+
+
+}

@@ -25,7 +25,7 @@
         <h2>Age Checker</h2>
         <hr />
         <label id="myAge" for="myText">Enter your Age :</label> <br />
-        <input id="myText" type="number" /><br />
+        <input id="myText" type="number" required /><br />
         <button id="mySubmit1">Submit</button>
         <p id="myResult"></p>
         <hr />
@@ -35,7 +35,7 @@
         <h2>Checked Elements</h2>
         <hr />
         <input type="checkbox" id="myChecked" />
-        <label for="myChecked">Subscribe</label><br /><br />
+        <label for="myChecked" id="subscribe">Subscribe</label><br /><br />
 
         <input type="radio" id="myOption1" name="myPayments" />
         <label for="myOption1">PayPal</label><br />
@@ -47,7 +47,7 @@
         <label for="myOption3">MasterCard</label><br /><br>
 
         <button id="checkedBtn">Submit</button>
-        <button type="reset">Reset</button>
+        <button type="reset" disabled>Reset</button>
 
         <p id="myCheckedResult"></p>
         <p id="myOptionResult"></p>
