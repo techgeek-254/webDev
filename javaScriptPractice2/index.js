@@ -190,4 +190,14 @@ let days = 7;
     }
 
 /*******************************************************************************************/
+//STRING METHODS
 
+let userNames = "   John  Mutua";
+userNames = userNames.trim(); //removes white spaces before and after a string
+userNames = userNames.toLowerCase(); //converts string to lowercase
+userNames = userNames.toUpperCase(); //converts string to uppercase
+console.log(userNames);
+
+let phoneNumbers = "0700-258-0025";
+phoneNumbers = phoneNumbers.replaceAll("-",""); //removes characters and replaces them
+console.log(phoneNumbers);
