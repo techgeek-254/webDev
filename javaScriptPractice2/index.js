@@ -123,7 +123,7 @@ checkedBtn.onclick = function () {
     if (myChecked.checked) {
         document.getElementById("myReset").disabled = false;
         myCheckedResult.textContent = `You have SUBSCRIBED`;
-        
+
     }
     else {
         myCheckedResult.textContent = `You are NOT SUBSCRIBED`;
@@ -132,12 +132,12 @@ checkedBtn.onclick = function () {
     if (myOption1.checked) {
         myOptionResult.textContent = `You have Selected PayPal`;
     }
-    else if(myOption2.checked){
-        myOptionResult.textContent=`You have Selected M-Pesa`;
+    else if (myOption2.checked) {
+        myOptionResult.textContent = `You have Selected M-Pesa`;
     }
-else if(myOption3.checked){
-    myOptionResult.textContent=`You have Selected MasterCard`;
-}
+    else if (myOption3.checked) {
+        myOptionResult.textContent = `You have Selected MasterCard`;
+    }
 
 }
 /*******************************************************************************************/
@@ -148,7 +148,43 @@ let message = myAge >= 18 ? "You are an ADULT" : "You are a MINOR";
 console.log(message);
 /* example 2*/
 let isEmployee = true;
-let theMessage = isEmployee ? "You are an Employee":"You are NOT an Employee !";
+let theMessage = isEmployee ? "You are an Employee" : "You are NOT an Employee !";
 console.log(theMessage);
 
 /*******************************************************************************************/
+// SWITCH STATEMENTS
+
+let days = 7;
+
+switch (days) {
+    case 1:
+        console.log("It is Monday");
+        break;
+
+    case 2:
+        console.log("It is Tuesday");
+        break;
+
+    case 3:
+        console.log("It is Wednesday");
+        break;
+
+    case 4:
+        console.log("It is Thursday");
+        break;
+
+    case 5:
+        console.log("It is Friday");
+        break;
+
+    case 6:
+        console.log("It is Saturday");
+        break;
+
+    case 7:
+        console.log("It is Sunday");
+        break;
+
+    default:
+        console.log(`${days} is not a day of the week`);
+}
