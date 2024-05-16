@@ -46,5 +46,5 @@ body{
     padding: 0;
 }
 #myResult:hover{
-background-color: chartreuse;
+background-color: rgba(248, 246, 137, 0.973);
 }
