@@ -79,7 +79,7 @@ else {
 }
 
 //IF STATEMENTS e.g 1
-let ageS = 19;
+let ageS = 5;
 let hasLicense = false;
 
 if(ageS >=18){
