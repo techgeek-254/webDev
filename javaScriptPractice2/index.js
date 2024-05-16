@@ -64,7 +64,7 @@ console.log(`The lowest value is ${min}`);
 //RANDOM NUMBER GENERATOR
 
 let randomNum = Math.floor(Math.random() * 50);
-console.log(randomNum);
+console.log(`Random Number: ${randomNum}`);
 
 /******************************************************************************************* */
 //IF STATEMENTS e.g 1
@@ -79,16 +79,19 @@ else {
 }
 
 //IF STATEMENTS e.g 1
-let ageS = 25;
+let ageS = 19;
 let hasLicense = false;
 
-if (ageS >= 18 && hasLicense) {
-    console.log(`You are ALLOWED to DRIVE`)
-    
+if(ageS >=18){
+    console.log(`You are old enough to Drive`);
+
+    if(hasLicense){
+        console.log(`You have your license`);
+    }
+    else{
+        console.log(`But you DONT have a license`);
+    }
 }
-else if (ageS < 18){
-    console.log(`Not allowed to Drive`)
-
-
-    
+else {
+    console.log(`You must be 18+ to have a license`);
 }
