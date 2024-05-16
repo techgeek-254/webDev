@@ -38,6 +38,7 @@
 }
 #mySubmit1{
   display: block;
+  cursor: pointer;
 }
 body{
     background-repeat: no-repeat;
@@ -48,6 +49,7 @@ body{
 #myResult:hover{
 background-color: rgba(248, 246, 137, 0.973);
 border: 0.5px solid gray;
+cursor: default;
 }
 #myResult{
   padding: 5px 20px;
