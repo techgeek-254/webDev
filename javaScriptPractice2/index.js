@@ -77,7 +77,7 @@ if (age < 18) {
 else {
     console.log("You are ALLOWED to Vote !")
 }
-
+/*******************************************************************************************/
 //IF STATEMENTS e.g 1 with DOM
 
 const myText = document.getElementById("myText");
@@ -104,3 +104,4 @@ mySubmit1.onclick = function () {
         myResult.textContent = `You must be 18+ to enter this site !`;
     }
 }
+/*******************************************************************************************/
