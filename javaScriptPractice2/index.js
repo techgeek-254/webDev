@@ -206,7 +206,7 @@ console.log(phoneNumbers);
 // WHILE LOOPS e.g.1
 
 let yourName = "";
-while (yourName === "") {
+while (yourName === "" || yourName===null) {
     yourName = window.prompt(`Enter your Name`);
 }
 console.log(`Hello ${yourName}`);
