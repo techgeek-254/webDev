@@ -121,8 +121,9 @@ const myReset = document.getElementById("myReset").disabled = true;
 checkedBtn.onclick = function () {
 
     if (myChecked.checked) {
-        myCheckedResult.textContent = `You have SUBSCRIBED`;
         document.getElementById("myReset").disabled = false;
+        myCheckedResult.textContent = `You have SUBSCRIBED`;
+        
     }
     else {
         myCheckedResult.textContent = `You are NOT SUBSCRIBED`;
@@ -145,3 +146,9 @@ else if(myOption3.checked){
 let myAge = 35;
 let message = myAge >= 18 ? "You are an ADULT" : "You are a MINOR";
 console.log(message);
+/* example 2*/
+let isEmployee = true;
+let theMessage = isEmployee ? "You are an Employee":"You are NOT an Employee !";
+console.log(theMessage);
+
+/*******************************************************************************************/
