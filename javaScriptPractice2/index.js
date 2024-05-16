@@ -116,13 +116,13 @@ const myOption3 = document.getElementById("myOption3");
 const checkedBtn = document.getElementById("checkedBtn");
 const myCheckedResult = document.getElementById("myCheckedResult");
 const myOptionResult = document.getElementById("myOptionResult");
-const myReset = document.getElementById("myReset");
+const myReset = document.getElementById("myReset").disabled = true;
 
 checkedBtn.onclick = function () {
 
     if (myChecked.checked) {
         myCheckedResult.textContent = `You have SUBSCRIBED`;
-
+        document.getElementById("myReset").disabled = false;
     }
     else {
         myCheckedResult.textContent = `You are NOT SUBSCRIBED`;
@@ -137,4 +137,5 @@ checkedBtn.onclick = function () {
 else if(myOption3.checked){
     myOptionResult.textContent=`You have Selected MasterCard`;
 }
+
 }
