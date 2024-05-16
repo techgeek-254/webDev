@@ -139,3 +139,9 @@ else if(myOption3.checked){
 }
 
 }
+/*******************************************************************************************/
+// Ternary Operator ---Shortcut for If else statements
+
+let myAge = 35;
+let message = myAge >= 18 ? "You are an ADULT" : "You are a MINOR";
+console.log(message);
