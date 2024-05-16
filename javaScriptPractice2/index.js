@@ -201,3 +201,5 @@ console.log(userNames);
 let phoneNumbers = "0700-258-0025";
 phoneNumbers = phoneNumbers.replaceAll("-",""); //removes characters and replaces them
 console.log(phoneNumbers);
+/*******************************************************************************************/
+
