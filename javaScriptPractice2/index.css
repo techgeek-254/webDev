@@ -54,5 +54,10 @@ cursor: default;
 #myResult{
   padding: 5px 20px;
   border-radius: 9px;
-  
+}
+button{
+  padding: 2px 15px;
+  margin-bottom: 5px;
+  font-family: inherit;
+  font-size: 0.9em;
 }

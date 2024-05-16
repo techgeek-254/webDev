@@ -108,3 +108,8 @@ mySubmit1.onclick = function () {
 
 // CHECKED ELEMENTS in JS
 
+const myChecked = document.getElementById("myChecked");
+const myOption1 = document.getElementById("myOption1");
+const myOption2 = document.getElementById("myOption2");
+const myOption3 = document.getElementById("myOption3");
+
