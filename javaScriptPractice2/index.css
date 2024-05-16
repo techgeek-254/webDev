@@ -18,6 +18,7 @@
 }
 .div1:hover {
   background-color: rgb(245, 245, 194);
+  cursor: pointer;
 }
 #label1 {
   background-color: rgba(255, 255, 0, 0.726);
@@ -28,9 +29,22 @@
     "Lucida Sans", Arial, sans-serif;
     color: rgb(106, 106, 106);
 }
+#myAge{
+  display: block;
+  text-align: left;
+}
+#myText{
+  display: block;
+}
+#mySubmit1{
+  display: block;
+}
 body{
     background-repeat: no-repeat;
     background-color: black;
     margin: 0;
     padding: 0;
+}
+#myResult:hover{
+background-color: chartreuse;
 }

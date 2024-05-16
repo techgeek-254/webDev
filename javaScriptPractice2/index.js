@@ -79,19 +79,28 @@ else {
 }
 
 //IF STATEMENTS e.g 1
-let ageS = 5;
-let hasLicense = false;
 
-if(ageS >=18){
-    console.log(`You are old enough to Drive`);
+const myText = document.getElementById("myText");
+const mySubmit1 = document.getElementById("mySubmit1");
+const myResult = document.getElementById("myResult");
+let ageS;
 
-    if(hasLicense){
-        console.log(`You have your license`);
+mySubmit1.onclick = function () {
+    ageS = myText.value;
+    ageS = Number(ageS);
+
+    if (ageS >= 18) {
+        myResult.textContent = `Access Granted`;
+
     }
-    else{
-        console.log(`But you DONT have a license`);
+
+    else if (ageS <= 0) {
+        myResult.textContent = `Enter a Number !`;
     }
-}
-else {
-    console.log(`You must be 18+ to have a license`);
+    else if (ageS <= 4) {
+        myResult.textContent = `Access Denied !`;
+    }
+    else if (ageS <= 18) {
+        myResult.textContent = `You must be 18+ to enter this site !`;
+    }
 }
