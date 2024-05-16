@@ -116,6 +116,7 @@ const myOption3 = document.getElementById("myOption3");
 const checkedBtn = document.getElementById("checkedBtn");
 const myCheckedResult = document.getElementById("myCheckedResult");
 const myOptionResult = document.getElementById("myOptionResult");
+const myReset = document.getElementById("myReset");
 
 checkedBtn.onclick = function () {
 
@@ -135,6 +136,5 @@ checkedBtn.onclick = function () {
     }
 else if(myOption3.checked){
     myOptionResult.textContent=`You have Selected MasterCard`;
-
 }
 }
