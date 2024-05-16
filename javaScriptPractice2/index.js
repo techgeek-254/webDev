@@ -128,8 +128,13 @@ checkedBtn.onclick = function () {
 
     }
     if (myOption1.checked) {
-        myOptionResult.textContent = `You have Selected PayPal`
+        myOptionResult.textContent = `You have Selected PayPal`;
     }
+    else if(myOption2.checked){
+        myOptionResult.textContent=`You have Selected M-Pesa`;
+    }
+else if(myOption3.checked){
+    myOptionResult.textContent=`You have Selected MasterCard`;
 
-
+}
 }
