@@ -208,26 +208,42 @@ console.log(phoneNumbers);
 
 //let yourName = "";
 //while (yourName === "" || yourName===null) {
-    //yourName = window.prompt(`Enter your Name`);
+//yourName = window.prompt(`Enter your Name`);
 //}
 //console.log(`Hello ${yourName}`);
 
 // DO WHILE LOOP
 
-let loggedIn = false;
-let user_Name;
-let passWord;
+// let loggedIn = false;
+// let user_Name;
+// let passWord;
 
-while(!loggedIn){
-    user_Name = window.prompt(`Enter your User Name`);
-    passWord = window.prompt(`Enter your Password`);
+// while(!loggedIn){
+//     user_Name = window.prompt(`Enter your User Name`);
+//     passWord = window.prompt(`Enter your Password`);
 
-    if(user_Name === "jmutua" && passWord ==="pwad9"){
-        loggedIn=true;
-        console.log("You are logged in");
+//     if(user_Name === "jmutua" && passWord ==="pwad9"){
+//         loggedIn=true;
+//         console.log("You are logged in");
+//     }
+//     else {
+//         console.log("Invalid Credentials, try again");
+//     }
+// }
+/****************** */
+// FOR LOOP
+
+for (let i = 0; i <= 10; i++) {
+    console.log(i);
+}
+console.log("Go !!")
+
+//FOR LOOP WITH IF STATEMENT e.g skip numbers using the CONTINUE
+for (let q = 1; q <= 10; q++) {
+    if (q == 5 || q == 9) {
+        continue;
     }
     else {
-        console.log("Invalid Credentials, try again");
+        console.log(q);
     }
 }
-/****************** */
