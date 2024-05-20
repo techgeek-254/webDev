@@ -268,3 +268,9 @@ function sumNum() {
     console.log(`The Sum of ${numA} & ${numB} is ${sumNums}`);
 }
 sumNum();
+
+// Function example 2
+function addNum(y, z) {
+    return y + z;
+}
+console.log(addNum(3, 5));
