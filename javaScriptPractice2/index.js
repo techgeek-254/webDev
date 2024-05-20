@@ -206,8 +206,28 @@ console.log(phoneNumbers);
 
 // WHILE LOOPS e.g.1
 
-let yourName = "";
-while (yourName === "" || yourName===null) {
-    yourName = window.prompt(`Enter your Name`);
+//let yourName = "";
+//while (yourName === "" || yourName===null) {
+    //yourName = window.prompt(`Enter your Name`);
+//}
+//console.log(`Hello ${yourName}`);
+
+// DO WHILE LOOP
+
+let loggedIn = false;
+let user_Name;
+let passWord;
+
+while(!loggedIn){
+    user_Name = window.prompt(`Enter your User Name`);
+    passWord = window.prompt(`Enter your Password`);
+
+    if(user_Name === "jmutua" && passWord ==="pwad9"){
+        loggedIn=true;
+        console.log("You are logged in");
+    }
+    else {
+        console.log("Invalid Credentials, try again");
+    }
 }
-console.log(`Hello ${yourName}`);
+/****************** */
