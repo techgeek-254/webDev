@@ -247,3 +247,14 @@ for (let q = 1; q <= 10; q++) {
         console.log(q);
     }
 }
+
+//FOR LOOP WITH IF STATEMENT e.g BREAK out of the Loop uisng break
+for (m = 0; m <= 10; m++) {
+if(m == 3){
+break;
+}
+else{
+    console.log(`${m}`);
+}
+}
+/****************** */
