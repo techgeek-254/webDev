@@ -274,3 +274,20 @@ function addNum(y, z) {
     return y + z;
 }
 console.log(addNum(3, 5));
+
+// Check for EVEN numbers function
+function isEven(my_Num){
+    return my_Num %2===0? true : false;
+}
+console.log(isEven(63));
+
+// Check for EVEN numbers function example 2
+function isEvenNum (num_even){
+    if(num_even % 2 === 0){
+        return true;
+    }
+    else {
+        return false;
+    }
+}
+console.log(isEvenNum(16));
