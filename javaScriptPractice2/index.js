@@ -17,7 +17,7 @@ if (isStudent) {
     console.log(`This is a student: ${isStudent}`)
 }
 else {
-    console.log(`You are NOT a Students !!!!`)
+    console.log(`You are NOT a Student !!!!`)
 }
 
 /******************************************************************************************** */
@@ -40,6 +40,7 @@ document.getElementById("mySubmit").onclick = function () {
 const PI = 3.14159;
 let radius;
 let circumference;
+//circumference = Math.floor(circumference);
 let mySubmit = document.getElementById("mySubmit");
 
 mySubmit.onclick = function () {
@@ -250,11 +251,20 @@ for (let q = 1; q <= 10; q++) {
 
 //FOR LOOP WITH IF STATEMENT e.g BREAK out of the Loop uisng break
 for (m = 0; m <= 10; m++) {
-if(m == 3){
-break;
-}
-else{
-    console.log(`${m}`);
-}
+    if (m == 8) {
+        break;
+    }
+    else {
+        console.log(`${m}`);
+    }
 }
 /****************** */
+// FUNCTIONS
+
+function sumNum() {
+    let numA = 10.5;
+    let numB = 105.556;
+    let sumNums = numA + numB;
+    console.log(`The Sum of ${numA} & ${numB} is ${sumNums}`);
+}
+sumNum();
