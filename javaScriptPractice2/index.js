@@ -301,3 +301,4 @@ function summation (){
     console.log(`The product is ${prod}`);
 }
 summation();
+/**************************************************** */
