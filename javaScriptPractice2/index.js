@@ -292,3 +292,12 @@ function isEvenNum (num_even){
 }
 console.log(isEvenNum(16));
 /************************************************* */
+//function to multiply two numbers
+function summation (){
+    let fig1;
+    let fig2;
+    let prod = 5.7 * 5;
+    prod = Number(prod);
+    console.log(`The product is ${prod}`);
+}
+summation();
