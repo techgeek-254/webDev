@@ -304,7 +304,6 @@ summation();
 /**************************************************** */
 // ARRAYS
 let matunda = ["mango","Orange"];
-
-matunda.push("coconut","tomatoe");
+matunda.push("coconut","tomatoe"); //add items into the array
 matunda.pop();
 console.log(matunda);
