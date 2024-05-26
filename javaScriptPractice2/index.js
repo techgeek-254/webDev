@@ -302,3 +302,6 @@ function summation (){
 }
 summation();
 /**************************************************** */
+// ARRAYS
+
+let matunda = ["mango"];
