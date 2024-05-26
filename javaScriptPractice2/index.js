@@ -304,4 +304,7 @@ summation();
 /**************************************************** */
 // ARRAYS
 let matunda = ["mango","Orange"];
-console.log(matunda[1]);
+
+matunda.push("coconut","tomatoe");
+
+console.log(matunda);
