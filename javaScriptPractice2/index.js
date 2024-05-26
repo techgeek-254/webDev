@@ -303,7 +303,17 @@ function summation (){
 summation();
 /**************************************************** */
 // ARRAYS
-let matunda = ["mango","Orange"];
+let matunda = ["mango","Orange","apple"];
 matunda.push("coconut","tomatoe"); //add items into the array
 matunda.pop(); //removes the last item in the array
+matunda.sort().reverse();
 console.log(matunda);
+
+/**************************************************** */
+
+// SPREAD OPERATOR  ...
+let theNumbers = [0.3,1,2,3,4,5,6,7,8,10];
+let maximum = Math.max(...theNumbers);
+let minimum = Math.min(...theNumbers);
+console.log(`Maximum No. in the array is ${maximum}`);
+console.log(`Minimum no. in the array is ${minimum}`);
