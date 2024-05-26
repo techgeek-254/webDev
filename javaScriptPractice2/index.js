@@ -317,3 +317,4 @@ let maximum = Math.max(...theNumbers);
 let minimum = Math.min(...theNumbers);
 console.log(`Maximum No. in the array is ${maximum}`);
 console.log(`Minimum no. in the array is ${minimum}`);
+
