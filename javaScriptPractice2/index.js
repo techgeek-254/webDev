@@ -306,5 +306,5 @@ summation();
 let matunda = ["mango","Orange"];
 
 matunda.push("coconut","tomatoe");
-
+matunda.pop();
 console.log(matunda);
