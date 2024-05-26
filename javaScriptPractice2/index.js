@@ -303,5 +303,5 @@ function summation (){
 summation();
 /**************************************************** */
 // ARRAYS
-
-let matunda = ["mango"];
+let matunda = ["mango","Orange"];
+console.log(matunda[1]);
