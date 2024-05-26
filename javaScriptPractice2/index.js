@@ -305,5 +305,5 @@ summation();
 // ARRAYS
 let matunda = ["mango","Orange"];
 matunda.push("coconut","tomatoe"); //add items into the array
-matunda.pop();
+matunda.pop(); //removes the last item in the array
 console.log(matunda);
