@@ -302,7 +302,7 @@ function summation (){
 }
 summation();
 /**************************************************** */
-// ARRAYS
+ // ARRAYS
 let matunda = ["mango","Orange","apple"];
 matunda.push("coconut","tomatoe"); //add items into the array
 matunda.pop(); //removes the last item in the array
@@ -318,3 +318,9 @@ let minimum = Math.min(...theNumbers);
 console.log(`Maximum No. in the array is ${maximum}`);
 console.log(`Minimum no. in the array is ${minimum}`);
 
+/*************************************** */
+// FUNCTION EXPRESSION
+ const hello = function (){
+    console.log("Hello")
+ }
+ hello();
