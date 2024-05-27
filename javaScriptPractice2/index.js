@@ -353,6 +353,7 @@ const yourName = (yourName) => {
 };
 yourName("John Mutua");
 /*********************************************** */
+
 //ARROW FUNCTIONS eg. 3 with two parameters
 
 const yourNames = (fstName, yrAge) => {
@@ -361,5 +362,15 @@ const yourNames = (fstName, yrAge) => {
 };
 yourNames("John M", 35);
 
+/*********************************************** */
 //ARROW FUNCTIONS with set timeout
 setTimeout(() => console.log("Arrow function setTimeouts - 5 seconds"), 5000);
+
+/*********************************************** */
+//arrow function to square and cube an array element
+
+const arrNumbers = [1,2,3,4,5,6,7];
+const arrSquares = arrNumbers.map((element) => Math.pow(element, 2));
+const arrCubes = arrNumbers.map((element) => Math.pow(element, 3));
+console.log(arrSquares);
+console.log(arrCubes);
