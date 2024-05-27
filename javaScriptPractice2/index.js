@@ -357,6 +357,9 @@ yourName("John Mutua");
 
 const yourNames = (fstName, yrAge) => {
     console.log(`Hello ${fstName}`)
-console.log(`You are ${yrAge} years old`)
+    console.log(`You are ${yrAge} years old`)
 };
 yourNames("John M", 35);
+
+//ARROW FUNCTIONS with set timeout
+setTimeout(() => console.log("Arrow function setTimeouts - 5 seconds"), 5000);
