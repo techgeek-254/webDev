@@ -342,10 +342,14 @@ setTimeout(function () {
 
 const hello_World = () => console.log("This is an Arrow Function =>");
 hello_World();
+
 /*********************************************** */
 
-//ARROW FUNCTIONS eg. 2
+//ARROW FUNCTIONS eg. 2 with one parameter
 
 const yourName = (yourName) => {console.log(`Hello ${yourName}`)
 console.log(`You are welcome`)};
 yourName("John Mutua");
+/*********************************************** */
+//ARROW FUNCTIONS eg. 3 with two parameters
+
