@@ -347,9 +347,16 @@ hello_World();
 
 //ARROW FUNCTIONS eg. 2 with one parameter
 
-const yourName = (yourName) => {console.log(`Hello ${yourName}`)
-console.log(`You are welcome`)};
+const yourName = (yourName) => {
+    console.log(`Hello ${yourName}`)
+    console.log(`You are welcome`)
+};
 yourName("John Mutua");
 /*********************************************** */
 //ARROW FUNCTIONS eg. 3 with two parameters
 
+const yourNames = (fstName, yrAge) => {
+    console.log(`Hello ${fstName}`)
+console.log(`You are ${yrAge} years old`)
+};
+yourNames("John M", 35);
