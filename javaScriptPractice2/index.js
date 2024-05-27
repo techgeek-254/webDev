@@ -276,14 +276,14 @@ function addNum(y, z) {
 console.log(addNum(3, 5));
 
 // Check for EVEN numbers function
-function isEven(my_Num){
-    return my_Num %2===0? true : false;
+function isEven(my_Num) {
+    return my_Num % 2 === 0 ? true : false;
 }
 console.log(isEven(63));
 
 // Check for EVEN numbers function example 2
-function isEvenNum (num_even){
-    if(num_even % 2 === 0){
+function isEvenNum(num_even) {
+    if (num_even % 2 === 0) {
         return true;
     }
     else {
@@ -293,7 +293,7 @@ function isEvenNum (num_even){
 console.log(isEvenNum(16));
 /************************************************* */
 //function to multiply two numbers
-function summation (){
+function summation() {
     let fig1;
     let fig2;
     let prod = 5.7 * 5;
@@ -302,9 +302,9 @@ function summation (){
 }
 summation();
 /**************************************************** */
- // ARRAYS
-let matunda = ["mango","Orange","apple"];
-matunda.push("coconut","tomatoe"); //add items into the array
+// ARRAYS
+let matunda = ["mango", "Orange", "apple"];
+matunda.push("coconut", "tomatoe"); //add items into the array
 matunda.pop(); //removes the last item in the array
 matunda.sort().reverse();
 console.log(matunda);
@@ -312,7 +312,7 @@ console.log(matunda);
 /**************************************************** */
 
 // SPREAD OPERATOR  ...
-let theNumbers = [0.3,1,2,3,4,5,6,7,8,10];
+let theNumbers = [0.3, 1, 2, 3, 4, 5, 6, 7, 8, 10];
 let maximum = Math.max(...theNumbers);
 let minimum = Math.min(...theNumbers);
 console.log(`Maximum No. in the array is ${maximum}`);
@@ -320,19 +320,32 @@ console.log(`Minimum no. in the array is ${minimum}`);
 
 /*************************************** */
 // FUNCTION EXPRESSION
- const hello = function (){
+const hello = function () {
     console.log("Hello")
- }
- hello();
+}
+hello();
 
- //  SET TIMEOUT for HELLO TO DISPLAY AFTER A SET TIME DURATION
+//  SET TIMEOUT for HELLO TO DISPLAY AFTER A SET TIME DURATION
 
- const helloWorld = function (){
+const helloWorld = function () {
     console.log("Hello World 1")
- }
- setTimeout(helloWorld, 1000);
+}
+setTimeout(helloWorld, 100);
 
-  //  SET TIMEOUT for HELLOworld TO DISPLAY AFTER A SET TIME DURATION eg 2
-setTimeout(function(){
+//  SET TIMEOUT for HELLOworld TO DISPLAY AFTER A SET TIME DURATION eg 2
+setTimeout(function () {
     console.log("Hello Worlds 2");
-}, 2000);
+}, 200);
+
+/*********************************************** */
+//ARROW FUNCTIONS eg. 1
+
+const hello_World = () => console.log("This is an Arrow Function =>");
+hello_World();
+/*********************************************** */
+
+//ARROW FUNCTIONS eg. 2
+
+const yourName = (yourName) => {console.log(`Hello ${yourName}`)
+console.log(`You are welcome`)};
+yourName("John Mutua");
