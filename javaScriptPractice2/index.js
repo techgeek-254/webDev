@@ -328,6 +328,11 @@ console.log(`Minimum no. in the array is ${minimum}`);
  //  SET TIMEOUT for HELLO TO DISPLAY AFTER A SET TIME DURATION
 
  const helloWorld = function (){
-    console.log("Hello World")
+    console.log("Hello World 1")
  }
- setTimeout(helloWorld, 3000);
+ setTimeout(helloWorld, 1000);
+
+  //  SET TIMEOUT for HELLOworld TO DISPLAY AFTER A SET TIME DURATION eg 2
+setTimeout(function(){
+    console.log("Hello Worlds 2");
+}, 2000);
