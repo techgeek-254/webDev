@@ -383,3 +383,11 @@ console.log(`Odd numbers in the Array are: ${arrOddNum}`);
 console.log(`The total of the Array: ${arrNumbers} = ${arrTotal}`)
 
 /*********************************************** */
+// OBJECTS IN js
+const thisPerson = {
+    personFname: "George",
+    personLname: "Adams",
+    personAge: 35,
+    isemployed: true,
+}
+console.log(thisPerson.personFname, thisPerson.personLname);
