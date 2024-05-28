@@ -402,14 +402,16 @@ const person1 = {
     theMobile: 254728002148,
     theTown: "Nairobi",
     saySomething: function () { console.log("Hey, am new here!") }, //this is the method
-    saySomething: () => console.log("Hey am new here.."), //using arrow function works the same
+    saySomethingElse: () => console.log("Hey am new here.."), //using arrow function works the same
     eatSomething: () => console.log("I love Fish"), //additional method
 }
 person1.saySomething();
-person1.saySomething();
+person1.saySomethingElse();
 person1.eatSomething();
 /******************************************************************** */
+
 // THIS keyword: reference to the object where THIS is used e.g person.name = this.name
+// THIS does not work with Arrow function
 
 const person2 = {
     p2Name: "Thomas Andrews",
