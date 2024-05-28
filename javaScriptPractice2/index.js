@@ -408,3 +408,12 @@ const person1 = {
 person1.saySomething();
 person1.saySomething();
 person1.eatSomething();
+/******************************************************************** */
+// THIS keyword: reference to the object where THIS is used e.g person.name = this.name
+
+const person2 = {
+    p2Name: "Thomas Andrews",
+    p2Age: 30,
+    p2Alert: function () {console.log(`Hi, I am ${this.p2Name}`)},
+}
+person2.p2Alert();
