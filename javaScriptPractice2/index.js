@@ -403,6 +403,8 @@ const person1 = {
     theTown: "Nairobi",
     saySomething: function () { console.log("Hey, am new here!") }, //this is the method
     saySomething: () => console.log("Hey am new here.."), //using arrow function works the same
+    eatSomething: () => console.log("I love Fish"), //additional method
 }
 person1.saySomething();
 person1.saySomething();
+person1.eatSomething();
