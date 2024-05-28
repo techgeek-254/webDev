@@ -369,11 +369,11 @@ setTimeout(() => console.log("Arrow function setTimeouts - 5 seconds"), 5000);
 /*********************************************** */
 //arrow function to square,cube,sum & check for even & odd numbers in an array elements
 
-const arrNumbers = [1,2,3,4,5,6,7,8,9,10];
+const arrNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
 const arrSquares = arrNumbers.map((element) => Math.pow(element, 2));
 const arrCubes = arrNumbers.map((element) => Math.pow(element, 3));
 const arrEvenNum = arrNumbers.filter((element) => element % 2 === 0);
-const arrOddNum = arrNumbers.filter((element) => element % 2 !==0);
+const arrOddNum = arrNumbers.filter((element) => element % 2 !== 0);
 const arrTotal = arrNumbers.reduce((accumulator, element) => accumulator + element);
 
 console.log(`The squared array is: ${arrSquares}`);
@@ -391,3 +391,4 @@ const thisPerson = {
     isemployed: true,
 }
 console.log(thisPerson.personFname, thisPerson.personLname);
+console.log(`${thisPerson.personFname}, ${thisPerson.personLname} is Employed? ${thisPerson.isemployed}`);
