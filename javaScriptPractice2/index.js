@@ -416,25 +416,39 @@ person1.eatSomething();
 const person2 = {
     p2Name: "Thomas Andrews",
     p2Age: 30,
-    p2Alert: function () {console.log(`Hi, I am ${this.p2Name}`)},
+    p2Alert: function () { console.log(`Hi, I am ${this.p2Name}`) },
 }
 person2.p2Alert();
 
 /*********************************************************************** */
 
- // CONSTRUCTORS = special method for defining the properties and methods of objects
+// CONSTRUCTORS = special method for defining the properties and methods of objects
 
- function Car (make, model, year, color){
+function Car(make, model, year, color) {
     this.make = make,
-    this.model = model,
-    this.year = year,
-    this.color = color
- }
+        this.model = model,
+        this.year = year,
+        this.color = color
+}
 
- const car1 = new Car("Ford", "Mustang", 2024, "Red");
+const car1 = new Car("Ford", "Mustang", 2024, "Red");
+const car2 = new Car("Toyota", "Axio", 2016, "White");
+const car3 = new Car("Toyota", "Mark X", 2010, "Silver");
 
+console.log(car1.make);
+console.log(car1.model);
+console.log(car1.year);
+console.log(car1.color);
+console.log(car1);
 
- console.log(car1.make);
- console.log(car1.model);
- console.log(car1.year);
- console.log(car1.color);
+console.log(car2.make);
+console.log(car2.model);
+console.log(car2.year);
+console.log(car2.color);
+console.log(car2);
+
+console.log(car3.make);
+console.log(car3.model);
+console.log(car3.year);
+console.log(car3.color);
+console.log(car3);
