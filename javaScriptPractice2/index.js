@@ -392,3 +392,15 @@ const thisPerson = {
 }
 console.log(thisPerson.personFname, thisPerson.personLname);
 console.log(`${thisPerson.personFname}, ${thisPerson.personLname} is Employed? ${thisPerson.isemployed}`);
+
+/******************************************************************** */
+
+// Adding methods to Objects
+
+const person1 = {
+    theNames: "John Maina",
+    theMobile: 254728002148,
+    theTown: "Nairobi",
+    saySomething: function(){console.log("Hey, am new here!")}, //this is the method
+}
+person1.saySomething();
