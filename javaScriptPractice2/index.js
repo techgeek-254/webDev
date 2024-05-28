@@ -401,6 +401,8 @@ const person1 = {
     theNames: "John Maina",
     theMobile: 254728002148,
     theTown: "Nairobi",
-    saySomething: function(){console.log("Hey, am new here!")}, //this is the method
+    saySomething: function () { console.log("Hey, am new here!") }, //this is the method
+    saySomething: () => console.log("Hey am new here.."), //using arrow function works the same
 }
+person1.saySomething();
 person1.saySomething();
