@@ -494,4 +494,14 @@ console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
     }
  }
 
- 
+ const user1 = new User("John Mutua");
+ const user2 = new User("Wesley Brown");
+ const user3 = new User("Tim Cook");
+ const user4 = new User("Milly Njagi");
+
+ console.log("1: " + user1.user_Name);
+ console.log("2: " + user2.user_Name);
+ console.log("3: " + user3.user_Name);
+ console.log("4: " + user4.user_Name);
+
+ console.log("Total Users are: " + User.userCount);
