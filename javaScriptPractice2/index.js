@@ -505,3 +505,7 @@ console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
  console.log("4: " + user4.user_Name);
 
  console.log("Total Users are: " + User.userCount);
+
+ /***************************************************** */
+
+ 
