@@ -507,5 +507,12 @@ console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
  console.log("Total Users are: " + User.userCount);
 
  /***************************************************** */
+// INHERITANCE
 
- 
+class Animal {
+    alive = true;
+
+    eat(){
+        console.log(`This ${this.names_} is eating`);
+    }
+}
