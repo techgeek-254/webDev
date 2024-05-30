@@ -484,4 +484,14 @@ console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
  /*************************************************************** */
 
  // STATIC KEYWORD = defines properties or methids belonging to a class rather than object
+
+ class User {
+    static userCount = 0;
+
+    constructor(user_Name){
+        this.user_Name = user_Name;
+        User.userCount++;
+    }
+ }
+
  
