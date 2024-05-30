@@ -453,4 +453,30 @@ console.log(car3.year);
 console.log(car3.color);
 console.log(car3);
 
-/********************************************** */
+/******************************** ************** */
+
+//  CLASSES 
+
+class Product{
+    constructor(nameS, priceS){
+        this.nameS = nameS;
+        this.priceS = priceS;
+    }
+    displayProduct(){
+        console.log(`Product: ${this.nameS}`);
+        console.log(`Price: $${this.priceS.toFixed(2)}`);
+    }
+    calculateTotal (salesTax){
+        return this.priceS + (this.priceS * salesTax);
+    }
+}
+const salesTax = 0.05;
+
+const product1 = new Product("Shirt", 19.50);
+const product2 = new Product("Pants", 20.50);
+const product3 = new Product("Jeans", 100);
+
+product1.displayProduct();
+
+const totalS = product1.calculateTotal(salesTax);
+console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
