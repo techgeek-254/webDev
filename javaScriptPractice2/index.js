@@ -515,4 +515,23 @@ class Animal {
     eat(){
         console.log(`This ${this.names_} is eating`);
     }
+
+    sleep(){
+        console.log(`This ${this.names_} is sleeping.`)
+    }
 }
+
+class Rabbit extends Animal{
+    names_ = "rabbit";
+}
+class Fish extends Animal{
+    names_ = "fish";
+}
+
+const rabbit = new Rabbit();
+
+console.log(rabbit.alive);
+
+rabbit.eat();
+
+/*************************************************** */
