@@ -480,3 +480,5 @@ product1.displayProduct();
 
 const totalS = product1.calculateTotal(salesTax);
 console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
+
+ /*************************************************************** */
