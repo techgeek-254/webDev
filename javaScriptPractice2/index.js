@@ -482,3 +482,6 @@ const totalS = product1.calculateTotal(salesTax);
 console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
 
  /*************************************************************** */
+
+ // STATIC KEYWORD = defines properties or methids belonging to a class rather than object
+ 
