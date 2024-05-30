@@ -452,3 +452,5 @@ console.log(car3.model);
 console.log(car3.year);
 console.log(car3.color);
 console.log(car3);
+
+/********************************************** */
