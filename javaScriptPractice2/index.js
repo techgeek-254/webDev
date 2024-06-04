@@ -581,7 +581,12 @@ console.log(maNumbers);
 
 /****************************************************/
 //SORTING AN ARRAY OF OBJECTS BASED ON GIVEN PARAMETERS/VALUES
-const people = [{},
-                {},
-                {},
-                {}]    
+const people = [{names1:"Mark Masai", ageA:30, gradeS:"F"},
+                {names1:"Joyce Omongi", ageA:20, gradeS:"B"},
+                {names1:"Reuben Mata", ageA:40, gradeS:"A"},
+                {names1:"Steve Masai", ageA:38, gradeS:"D"}]    
+
+people.sort((a,b)=>a.ageA - b.ageA); //lets sort with age
+people.sort((a,b)=> a.names1.localeCompare(b.names1)); //sort by names
+people.sort((a,b)=> a.gradeS.localeCompare(b.gradeS)); //sort by grades
+console.log(people);
