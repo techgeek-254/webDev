@@ -571,4 +571,17 @@ maFruits.sort();
 console.log(maFruits);
 
 /****************************************************/
+// SORTING NUMBERS
 
+let maNumbers = [0,1,2,5,10,8,9,6,8,7,4];
+maNumbers.sort((a,b)=>a-b); //must include this to sort numbers in ascending
+maNumbers.sort((a,b)=>b-a); //must include this to sort numbers in descending
+
+console.log(maNumbers);
+
+/****************************************************/
+//SORTING AN ARRAY OF OBJECTS BASED ON GIVEN PARAMETERS/VALUES
+const people = [{},
+                {},
+                {},
+                {}]    
