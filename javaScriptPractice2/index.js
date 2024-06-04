@@ -535,3 +535,5 @@ console.log(rabbit.alive);
 rabbit.eat();
 
 /****************************************************/
+// NESTED OBJECTS
+
