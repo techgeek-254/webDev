@@ -546,3 +546,8 @@ const stud1 = {
         addresss: "10 Ruiru building",
     }
 }
+console.log(stud1);
+console.log(stud1.fullNames);
+console.log(stud1.hobbies[0]);
+
+/****************************************************/
