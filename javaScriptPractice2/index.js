@@ -563,3 +563,12 @@ const orangeFruit = fruits.filter(fruit => fruit.color ==="orange");
 console.log(orangeFruit);
 
 /****************************************************/
+// SORTING AN ARRAY
+
+let maFruits = ["mango","coconut","pineapple","banana","melon"];
+
+maFruits.sort();
+console.log(maFruits);
+
+/****************************************************/
+
