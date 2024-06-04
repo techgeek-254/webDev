@@ -553,7 +553,13 @@ console.log(stud1.hobbies[0]);
 /****************************************************/
 //ARRAY OF OBJECTS
 
-const fruits = [{ name1: "apple", color: "red" },
-{},
-{},
-{}];
+const fruits = [{ name1: "apple", color: "red",calories:15 },
+                {name1: "oranges", color:"orange", calories:95},
+                {name1: "coconuts", color:"brown", calories:20}];
+
+
+const orangeFruit = fruits.filter(fruit => fruit.color ==="orange");
+
+console.log(orangeFruit);
+
+/****************************************************/
