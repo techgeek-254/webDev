@@ -537,3 +537,12 @@ rabbit.eat();
 /****************************************************/
 // NESTED OBJECTS
 
+const stud1 = {
+    fullNames: "Spongebob Squarepants",
+    theAge: 24,
+    hobbies: ["Soccer","baseball"],
+    address: {
+        street: "Nairobi",
+        addresss: "10 Ruiru building",
+    }
+}
