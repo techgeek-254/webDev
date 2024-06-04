@@ -457,16 +457,16 @@ console.log(car3);
 
 //  CLASSES 
 
-class Product{
-    constructor(nameS, priceS){
+class Product {
+    constructor(nameS, priceS) {
         this.nameS = nameS;
         this.priceS = priceS;
     }
-    displayProduct(){
+    displayProduct() {
         console.log(`Product: ${this.nameS}`);
         console.log(`Price: $${this.priceS.toFixed(2)}`);
     }
-    calculateTotal (salesTax){
+    calculateTotal(salesTax) {
         return this.priceS + (this.priceS * salesTax);
     }
 }
@@ -481,50 +481,50 @@ product1.displayProduct();
 const totalS = product1.calculateTotal(salesTax);
 console.log(`Total price (with Tax): $${totalS.toFixed(2)}`);
 
- /*************************************************************** */
+/*************************************************************** */
 
- // STATIC KEYWORD = defines properties or methids belonging to a class rather than object
+// STATIC KEYWORD = defines properties or methids belonging to a class rather than object
 
- class User {
+class User {
     static userCount = 0;
 
-    constructor(user_Name){
+    constructor(user_Name) {
         this.user_Name = user_Name;
         User.userCount++;
     }
- }
+}
 
- const user1 = new User("John Mutua");
- const user2 = new User("Wesley Brown");
- const user3 = new User("Tim Cook");
- const user4 = new User("Milly Njagi");
+const user1 = new User("John Mutua");
+const user2 = new User("Wesley Brown");
+const user3 = new User("Tim Cook");
+const user4 = new User("Milly Njagi");
 
- console.log("1: " + user1.user_Name);
- console.log("2: " + user2.user_Name);
- console.log("3: " + user3.user_Name);
- console.log("4: " + user4.user_Name);
+console.log("1: " + user1.user_Name);
+console.log("2: " + user2.user_Name);
+console.log("3: " + user3.user_Name);
+console.log("4: " + user4.user_Name);
 
- console.log("Total Users are: " + User.userCount);
+console.log("Total Users are: " + User.userCount);
 
- /***************************************************** */
+/***************************************************** */
 // INHERITANCE
 
 class Animal {
     alive = true;
 
-    eat(){
+    eat() {
         console.log(`This ${this.names_} is eating`);
     }
 
-    sleep(){
+    sleep() {
         console.log(`This ${this.names_} is sleeping.`)
     }
 }
 
-class Rabbit extends Animal{
+class Rabbit extends Animal {
     names_ = "rabbit";
 }
-class Fish extends Animal{
+class Fish extends Animal {
     names_ = "fish";
 }
 
@@ -540,7 +540,7 @@ rabbit.eat();
 const stud1 = {
     fullNames: "Spongebob Squarepants",
     theAge: 24,
-    hobbies: ["Soccer","baseball"],
+    hobbies: ["Soccer", "baseball"],
     address: {
         street: "Nairobi",
         addresss: "10 Ruiru building",
@@ -551,3 +551,9 @@ console.log(stud1.fullNames);
 console.log(stud1.hobbies[0]);
 
 /****************************************************/
+//ARRAY OF OBJECTS
+
+const fruits = [{ name1: "apple", color: "red" },
+{},
+{},
+{}];
