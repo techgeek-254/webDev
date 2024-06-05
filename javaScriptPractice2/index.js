@@ -592,3 +592,7 @@ people.sort((a,b)=> a.gradeS.localeCompare(b.gradeS)); //sort by grades
 console.log(people);
 
 /****************************************************/
+// DATE & TIME
+
+const date = new Date();
+console.log(date);
