@@ -590,3 +590,5 @@ people.sort((a,b)=>a.ageA - b.ageA); //lets sort with age
 people.sort((a,b)=> a.names1.localeCompare(b.names1)); //sort by names
 people.sort((a,b)=> a.gradeS.localeCompare(b.gradeS)); //sort by grades
 console.log(people);
+
+/****************************************************/
