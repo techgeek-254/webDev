@@ -624,14 +624,14 @@ console.log(seconds);
 //get milliseconds
 const milliseconds = date.getMilliseconds();
 console.log(milliseconds);
+
 /****************************************************/
 
 /**Random if statetement test */
-const dateOfBirth = "14-06-1989";
+const dateOfBirth = "10-06-1989";
 const uName = "John";
 if(dateOfBirth === "14-06-1989"){
 console.log(`Happy Birthday, ${uName}`);
 }
-else{
-    console.log(null);
-}
+/****************************************************/
+
