@@ -595,4 +595,33 @@ console.log(people);
 // DATE & TIME
 
 const date = new Date();
-console.log(date);
+console.log(`The Date and time now is: ${date}`);
+
+// get the current YEAR
+const year = date.getFullYear();
+console.log(`The current year is: ${year}`);
+
+//get the current month
+const month = date.getMonth();
+console.log(`The current month is: ${month}`); // Jan is 0, Feb is 1 .... Dec is 11
+
+//get the current Day
+const day = date.getDate();
+console.log(day);
+
+//ge the current Hour
+const hour = date.getHours();
+console.log(hour);
+
+//get the minutes
+const minutes = date.getMinutes();
+console.log(minutes);
+
+//get the seconds
+const seconds = date.getSeconds();
+console.log(seconds);
+
+//get milliseconds
+const milliseconds = date.getMilliseconds();
+console.log(milliseconds);
+/****************************************************/
