@@ -637,7 +637,7 @@ if (dateOfBirth === "14-06-1989") {
 
 // Set time Out (callback, delay);
 
-setTimeout(() => console.log("Hello"), 3000);
+setTimeout(() => console.log("Hello"), 3000); //using arrow function
 
 // or
 
