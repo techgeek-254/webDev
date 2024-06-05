@@ -641,28 +641,46 @@ setTimeout(() => console.log("Hello"), 3000); //using arrow function
 
 // or
 
-function sayHello (){
+function sayHello() {
     console.log("Hello");
 }
 setTimeout(sayHello, 2500);
 
 // or
 
-setTimeout(function(){console.log("Hello")}, 2900);
+setTimeout(function () { console.log("Hello") }, 2900);
 
 /****************************************************/
+
 // settimeout vs clear timeout
 let timeoutid;
 
-function startTimer(){
+function startTimer() {
     timeoutid = setTimeout(() => window.alert("SUBMITTED"), 3000);
     console.log("SUBMITTED succesffully !")
 }
-function clearTimer(){
+function clearTimer() {
     clearTimeout(timeoutid);
     console.log("NOT Submitted !")
 }
 
+/****************************************************/
 
+// DIGITAL CLOCK PROGRAM
+
+function updateClock() {
+    const now = new Date();
+    let hours = now.getHours();
+    const meridiem = hours >= 12 ? "PM" : "AM";
+    hours = hours % 12 || 12;
+    hours = hours.toString().padStart(2, 0);
+    const minutes = now.getMinutes().toString().padStart(2, 0);
+    const seconds = now.getSeconds().toString().padStart(2, 0);
+    const timeString = `${hours}:${minutes}: ${seconds} ${meridiem}`;
+    document.getElementById("clock").textContent = timeString;
+
+}
+updateClock();
+setInterval(updateClock, 1000);
 
 
