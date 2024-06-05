@@ -651,3 +651,18 @@ setTimeout(sayHello, 2500);
 setTimeout(function(){console.log("Hello")}, 2900);
 
 /****************************************************/
+// settimeout vs clear timeout
+let timeoutid;
+
+function startTimer(){
+    timeoutid = setTimeout(() => window.alert("SUBMITTED"), 3000);
+    console.log("SUBMITTED succesffully !")
+}
+function clearTimer(){
+    clearTimeout(timeoutid);
+    console.log("NOT Submitted !")
+}
+
+
+
+
