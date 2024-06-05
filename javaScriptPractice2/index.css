@@ -61,3 +61,8 @@ button{
   font-family: inherit;
   font-size: 0.8em;
 }
+#clock{
+  backdrop-filter: blur(5px);
+  background-color: rgba(0, 255, 255, 0.149);
+  border-radius: 5px;
+}
