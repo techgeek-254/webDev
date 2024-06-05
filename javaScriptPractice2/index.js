@@ -553,19 +553,19 @@ console.log(stud1.hobbies[0]);
 /****************************************************/
 //ARRAY OF OBJECTS
 
-const fruits = [{ name1: "apple", color: "red",calories:15 },
-                {name1: "oranges", color:"orange", calories:95},
-                {name1: "coconuts", color:"brown", calories:20}];
+const fruits = [{ name1: "apple", color: "red", calories: 15 },
+{ name1: "oranges", color: "orange", calories: 95 },
+{ name1: "coconuts", color: "brown", calories: 20 }];
 
 
-const orangeFruit = fruits.filter(fruit => fruit.color ==="orange");
+const orangeFruit = fruits.filter(fruit => fruit.color === "orange");
 
 console.log(orangeFruit);
 
 /****************************************************/
 // SORTING AN ARRAY
 
-let maFruits = ["mango","coconut","pineapple","banana","melon"];
+let maFruits = ["mango", "coconut", "pineapple", "banana", "melon"];
 
 maFruits.sort();
 console.log(maFruits);
@@ -573,22 +573,22 @@ console.log(maFruits);
 /****************************************************/
 // SORTING NUMBERS
 
-let maNumbers = [0,1,2,5,10,8,9,6,8,7,4];
-maNumbers.sort((a,b)=>a-b); //must include this to sort numbers in ascending
-maNumbers.sort((a,b)=>b-a); //must include this to sort numbers in descending
+let maNumbers = [0, 1, 2, 5, 10, 8, 9, 6, 8, 7, 4];
+maNumbers.sort((a, b) => a - b); //must include this to sort numbers in ascending
+maNumbers.sort((a, b) => b - a); //must include this to sort numbers in descending
 
 console.log(maNumbers);
 
 /****************************************************/
 //SORTING AN ARRAY OF OBJECTS BASED ON GIVEN PARAMETERS/VALUES
-const people = [{names1:"Mark Masai", ageA:30, gradeS:"F"},
-                {names1:"Joyce Omongi", ageA:20, gradeS:"B"},
-                {names1:"Reuben Mata", ageA:40, gradeS:"A"},
-                {names1:"Steve Masai", ageA:38, gradeS:"D"}]    
+const people = [{ names1: "Mark Masai", ageA: 30, gradeS: "F" },
+{ names1: "Joyce Omongi", ageA: 20, gradeS: "B" },
+{ names1: "Reuben Mata", ageA: 40, gradeS: "A" },
+{ names1: "Steve Masai", ageA: 38, gradeS: "D" }]
 
-people.sort((a,b)=>a.ageA - b.ageA); //lets sort with age
-people.sort((a,b)=> a.names1.localeCompare(b.names1)); //sort by names
-people.sort((a,b)=> a.gradeS.localeCompare(b.gradeS)); //sort by grades
+people.sort((a, b) => a.ageA - b.ageA); //lets sort with age
+people.sort((a, b) => a.names1.localeCompare(b.names1)); //sort by names
+people.sort((a, b) => a.gradeS.localeCompare(b.gradeS)); //sort by grades
 console.log(people);
 
 /****************************************************/
@@ -630,8 +630,24 @@ console.log(milliseconds);
 /**Random if statetement test */
 const dateOfBirth = "10-06-1989";
 const uName = "John";
-if(dateOfBirth === "14-06-1989"){
-console.log(`Happy Birthday, ${uName}`);
+if (dateOfBirth === "14-06-1989") {
+    console.log(`Happy Birthday, ${uName}`);
 }
 /****************************************************/
 
+// Set time Out (callback, delay);
+
+setTimeout(() => console.log("Hello"), 3000);
+
+// or
+
+function sayHello (){
+    console.log("Hello");
+}
+setTimeout(sayHello, 2500);
+
+// or
+
+setTimeout(function(){console.log("Hello")}, 2900);
+
+/****************************************************/
