@@ -1,13 +1,13 @@
-export const PI = 3.142;
+export const pie = 3.142;
 
 export  function getCircumference(radius) {
-    return 2 * PI * radius;
+    return 2 * pie * radius;
 }
 
 export  function getArea(radius) {
-    return PI * radius * radius;
+    return pie * radius * radius;
 }
 
 export function getVolume(radius) {
-    return 4 * PI * radius * radius;
+    return 4 * pie * radius * radius;
 }

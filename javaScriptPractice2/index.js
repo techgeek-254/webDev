@@ -686,4 +686,7 @@ setInterval(updateClock, 1000);
 /****************************************************/
 // ES6 modules ----> imprting and exporting in JS
 
+//import {PI, getCircumference, getArea, getVolume} from './mathUtil.js';
+
+console.log(PI);
 
