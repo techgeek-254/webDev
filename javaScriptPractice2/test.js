@@ -13,5 +13,5 @@ console.log(`${volume.toFixed(2)}`);
 
 console.log(`${organization}`);
 
-const RectArea = recArea(1,0);
-console.log(RectArea.toFixed(2));
+const RectArea = recArea(2.5,8.7);
+console.log(`The area of the rectangle is ${RectArea.toFixed(2)} cm`);
