@@ -684,5 +684,11 @@ updateClock();
 setInterval(updateClock, 1000);
 
 /****************************************************/
+// ** Synchronous ** = Executes line by Line consecutively in a s sequential manner.
+// Code that waits for an operation to complete
+
+// ** asynchronous ** = Allows multiple operations to be performed concurrently without
+//      waiting. Doesnt block the execution flow and allows the program to continue. 
+//      Handled with callbacks, Promises, Async/Await.
 
 
