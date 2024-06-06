@@ -1,4 +1,6 @@
-export const pie = 3.142;
+// ES6 modules ----> imprting and exporting in JS
+
+export const pie = 3.14;
 
 export  function getCircumference(radius) {
     return 2 * pie * radius;
