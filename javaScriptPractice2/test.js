@@ -1,4 +1,4 @@
-import { pie, getArea, getCircumference, getVolume } from './mathUtil.js';
+import { pie, getArea, getCircumference, getVolume, organization, recArea } from './mathUtil.js';
 
 console.log(`The PI is ${pie}`);
 
@@ -10,3 +10,8 @@ console.log(`${getTheArea.toFixed(2)}`);//to 2 decimal places
 
 const volume = getVolume(1.56);
 console.log(`${volume.toFixed(2)}`);
+
+console.log(`${organization}`);
+
+const RectArea = recArea(1,0);
+console.log(RectArea.toFixed(2));

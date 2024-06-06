@@ -13,3 +13,10 @@ export  function getArea(radius) {
 export function getVolume(radius) {
     return 4 * pie * radius * radius;
 }
+
+export const organization = "EACC";
+
+
+export function recArea(l,w){
+return l*w;
+}
