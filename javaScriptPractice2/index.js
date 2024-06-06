@@ -692,3 +692,8 @@ setInterval(updateClock, 1000);
 //      Handled with callbacks, Promises, Async/Await.
 
 
+// Example using Callbacks
+
+function func1(callback) {
+    setTimeout(() => { console.log("Task 1"); callback() }, 2000);
+}
