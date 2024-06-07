@@ -43,8 +43,8 @@
 body{
     background-image: url(./bgImage.jpg);
     background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-size:cover;
+    background-repeat: repeat;
     background-color: black;
     margin: 0;
     padding: 0;
