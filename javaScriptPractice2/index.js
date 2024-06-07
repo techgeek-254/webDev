@@ -705,3 +705,14 @@ function func2(){
 }
 
 func1(func2);
+/****************************************************/
+
+// Error handling
+
+try {
+    console.log(x); //x is not defined
+}
+catch(error){
+    console.error(error);
+}
+console.log(`You have reached the end !`);
