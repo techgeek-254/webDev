@@ -1,4 +1,4 @@
-// ES6 modules ----> imprting and exporting in JS
+// ES6 modules ----> importing and exporting in JS
 
 export const pie = 3.14;
 

@@ -21,10 +21,10 @@
   cursor: pointer;
 }
 #label1 {
-  background-color: rgba(255, 255, 0, 0.726);
+  background-color: rgba(255, 255, 0, 0.308);
   padding: 3px 35px;
-  border-radius: 8px;
-  border: solid 0.1px gray;
+  border-radius: 5px;
+  border: solid 0.1px rgb(228, 225, 225);
   font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
     "Lucida Sans", Arial, sans-serif;
     color: rgb(106, 106, 106);
@@ -41,6 +41,9 @@
   cursor: pointer;
 }
 body{
+    background-image: url(./bgImage.jpg);
+    background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     background-color: black;
     margin: 0;
