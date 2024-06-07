@@ -698,7 +698,7 @@ function func1(callback) {
     setTimeout(() => { console.log("Task 1"); callback() }, 4000);
 }
 
-function func2(){
+function func2() {
     console.log("Task 2");
     console.log("Task 3");
     console.log("Task 4");
@@ -713,18 +713,33 @@ try {
     console.log(x); //x is not defined
     /**Network errors, Promise Rejection, Security errors */
 }
-catch(error){
+catch (error) {
     console.error(error);
 }
-finally{
+finally {
     console.log(`This always executes regardless !`);
-    /**Close files, close connections, release resources */
+    /**Close files, close connecti2ons, release resources */
 }
 console.log(`You have reached the end !`);
 
 /****************************************************/
 // Error handling Example 2
+try {
+    const dividend = Number(window.prompt("Enter a Dividend"));
+    const divisor = Number(window.prompt("Enter a divisor"));
 
-const dividend = window.prompt("Enter a Dividend");
-const divisor = window.prompt("Enter a divisor");
+    if (divisor == 0) {
+        throw new Error(`You cant divide by Zero`)
+    }
+    if (isNaN(dividend) || isNaN(divisor)) {
+        throw new Error(`Values Must be numbers`); 10
+    }
+    const results = dividend / divisor;
+    console.log(`The result of dividing ${dividend} with ${divisor} is ${results.toFixed(1)}`);
+}
+catch (error) {
+    console.error(error);
+}
+console.log(`This is the end of the division`);
 
+/****************************************************/
