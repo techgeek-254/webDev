@@ -711,8 +711,13 @@ func1(func2);
 
 try {
     console.log(x); //x is not defined
+    /**Network errors, Promise Rejection, Security errors */
 }
 catch(error){
     console.error(error);
+}
+finally{
+    console.log(`This always executes regardless !`);
+    /**Close files, close connections, release resources */
 }
 console.log(`You have reached the end !`);
