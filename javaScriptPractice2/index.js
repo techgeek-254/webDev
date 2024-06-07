@@ -364,7 +364,7 @@ yourNames("John M", 35);
 
 /*********************************************** */
 //ARROW FUNCTIONS with set timeout
-setTimeout(() => console.log("Arrow function setTimeouts - 5 seconds"), 5000);
+setTimeout(() => console.log("Arrow function setTimeouts - 5 seconds"), 3000);
 
 /*********************************************** */
 //arrow function to square,cube,sum & check for even & odd numbers in an array elements
@@ -695,5 +695,13 @@ setInterval(updateClock, 1000);
 // Example using Callbacks
 
 function func1(callback) {
-    setTimeout(() => { console.log("Task 1"); callback() }, 2000);
+    setTimeout(() => { console.log("Task 1"); callback() }, 4000);
 }
+
+function func2(){
+    console.log("Task 2");
+    console.log("Task 3");
+    console.log("Task 4");
+}
+
+func1(func2);
