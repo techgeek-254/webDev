@@ -721,3 +721,10 @@ finally{
     /**Close files, close connections, release resources */
 }
 console.log(`You have reached the end !`);
+
+/****************************************************/
+// Error handling Example 2
+
+const dividend = window.prompt("Enter a Dividend");
+const divisor = window.prompt("Enter a divisor");
+
