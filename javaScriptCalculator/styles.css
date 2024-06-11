@@ -5,7 +5,7 @@ body {
   align-items: center;
   height: 100vh;
   /*background-color: hsl(0, 5%, 84%);*/
-  background-image: linear-gradient(to left top, #815600, #815600, #550050, #550050, #550050);
+  background-image: linear-gradient(to left top, #fcd586, #feda93a0, #00000091, #fcd5fa, #fca4f5);
 }
 #calculator {
   font-family: arial, sans-serif;
