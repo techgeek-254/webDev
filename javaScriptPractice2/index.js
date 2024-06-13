@@ -743,3 +743,7 @@ catch (error) {
 console.log(`This is the end of the division`);
 
 /****************************************************/
+/**Change Documebt Title using js */
+document.title = "Javascript";
+
+/****************************************************/
