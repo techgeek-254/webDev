@@ -1,5 +1,6 @@
 body {
     font-family: Arial, sans-serif;
+    background-color: hwb(36 96% 2%);
 }
 
 #app {
@@ -17,6 +18,8 @@ input,
 button {
     padding: 10px;
     font-size: 16px;
+    border: 0.5px solid grey;
+    border-radius: 6px;
 }
 
 ul {
@@ -26,9 +29,10 @@ ul {
 
 li {
     padding: 10px;
-    border: 1px solid #ccc;
+    border: 0.5px solid #919191;
     margin-bottom: 10px;
     text-align: left;
+    border-radius: 6px;
 }
 
 li.completed span {
@@ -38,4 +42,9 @@ li.completed span {
 button {
     margin-left: 10px;
     cursor: pointer;
+    background-color: hsl(34, 100%, 95%);
+    
+}
+button:hover{
+    background-color: hsl(30, 100%, 99%);
 }
