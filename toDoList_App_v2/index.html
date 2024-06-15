@@ -4,20 +4,20 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vue To-Do List App</title>
-    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
     <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
-<body>
-    <div id="app" class="container">
-        <h1>To-Do List</h1>
-        <form @submit.prevent="addTodo">
-            <input type="text" v-model="newTodo" placeholder="Enter a new task">
-            <button type="submit">Add</button>
+<body class="bg-gray-100 flex items-center justify-center h-screen">
+    <div id="app" class="bg-white p-8 rounded shadow-md w-full max-w-md">
+        <h1 class="text-2xl font-bold text-center mb-4">To-Do List</h1>
+        <form @submit.prevent="addTodo" class="flex mb-4">
+            <input type="text" v-model="newTodo" placeholder="Enter a new task" class="flex-grow p-2 border border-gray-300 rounded-l focus:outline-none">
+            <button type="submit" class="bg-green-500 text-white px-4 py-2 rounded-r hover:bg-green-600">Add</button>
         </form>
         <ul>
-            <li v-for="(todo, index) in todos" :key="index">
+            <li v-for="(todo, index) in todos" :key="index" class="flex items-center justify-between p-2 mb-2 bg-gray-50 border border-gray-200 rounded">
                 {{ todo.text }}
-                <button @click="deleteTodo(index)" class="delete-btn">Delete</button>
+                <button @click="deleteTodo(index)" class="bg-red-500 text-white px-2 py-1 rounded hover:bg-red-600">Delete</button>
             </li>
         </ul>
     </div>
