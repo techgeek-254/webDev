@@ -1,23 +1,26 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>To-Do List App</title>
+    <title>Vue To-Do List App</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="https://cdn.jsdelivr.net/npm/vue@2"></script>
 </head>
-
 <body>
-    <div class="container">
+    <div id="app" class="container">
         <h1>To-Do List</h1>
-        <form id="todo-form">
-            <input type="text" id="todo-input" placeholder="Enter a new task">
+        <form @submit.prevent="addTodo">
+            <input type="text" v-model="newTodo" placeholder="Enter a new task">
             <button type="submit">Add</button>
         </form>
-        <ul id="todo-list"></ul>
+        <ul>
+            <li v-for="(todo, index) in todos" :key="index">
+                {{ todo.text }}
+                <button @click="deleteTodo(index)" class="delete-btn">Delete</button>
+            </li>
+        </ul>
     </div>
     <script src="script.js"></script>
 </body>
-
 </html>
