@@ -8,10 +8,14 @@
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #153677, #4e085f);
+    background: linear-gradient(135deg, #010a3f, #4e085f);
     padding: 10px;
 }
-
+#list-container{
+    border: solid #bfbfbf 0.2px;
+    padding: 10px;
+    border-radius: 10px;
+}
 .todo-app {
     width: 100%;
     max-width: 540px;
@@ -55,9 +59,10 @@ button {
     padding: 16px 50px;
     background: #ff5945;
     color: white;
-    font-size: 16px;
+    font-size: 17px;
     cursor: pointer;
     border-radius: 40px;
+    transition: 1s ease-in;
 }
 
 ul li {
@@ -82,7 +87,7 @@ ul li::before {
 }
 
 ul li.checked {
-    color: #555;
+    color: #676767;
     text-decoration: line-through;
 }
 
