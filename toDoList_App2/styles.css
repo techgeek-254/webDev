@@ -57,7 +57,7 @@ button {
     border: none;
     outline: none;
     padding: 16px 50px;
-    background: #0d8a01;
+    background: linear-gradient(red, rgb(252, 148, 103));
     color: white;
     font-size: 17px;
     cursor: pointer;
@@ -110,7 +110,7 @@ ul li span{
 }
 
 ul li span:hover{
-    background: #f74040;
+    background: #fc5858;
     color: white;
 }
 footer{
