@@ -14,7 +14,7 @@ function addTask() {
         listContainer.appendChild(li);
         //creating the delete task icon (x)
         let span = document.createElement("span");
-        span.innerHTML = "\u00d7";
+        span.innerHTML = "\u00d7" + "Delete";
         li.appendChild(span);
     }
     inputBox.value = "";
