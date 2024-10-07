@@ -7,16 +7,10 @@
       "password": "test123"
     },
     {
-      "id": "2d33",
-      "name": "",
-      "email": "",
-      "password": ""
-    },
-    {
-      "id": "e322",
-      "name": "",
-      "email": "",
-      "password": ""
+      "id": "98b8",
+      "name": "John Adamson",
+      "email": "john@test.com",
+      "password": "john123"
     }
   ],
   "restaurants": [
