@@ -1,0 +1,42 @@
+{
+  "users": [
+    {
+      "id": "e074",
+      "name": "test",
+      "email": "test@test.com",
+      "password": "test123"
+    },
+    {
+      "id": "2d33",
+      "name": "",
+      "email": "",
+      "password": ""
+    },
+    {
+      "id": "e322",
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Faeva Foods Limited",
+      "address": "Ruiru, By-Pass, Membly - KENYA",
+      "contact": "254789456987",
+      "id": "833f"
+    },
+    {
+      "id": "a3eb",
+      "name": "Fanaka Hotels",
+      "address": "Mombasa Kenya",
+      "contact": "020499744552"
+    },
+    {
+      "id": "1ab3",
+      "name": "Delights Byriani",
+      "address": "4th Street",
+      "contact": "61100-00200"
+    }
+  ]
+}
