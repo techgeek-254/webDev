@@ -1,5 +1,6 @@
 <template>
     <div class="nav">
+        <img class="float-left h-10 object-center items-center mt-1 mr-2 ml-1 opacity-45 pl-1 rounded-sm " src="../assets/mainLogo.jpg" alt="faeva_foods_logo">
         <RouterLink to="/HomePage">Home</RouterLink>
         <RouterLink to="/add-restaurant">Add Restaurant</RouterLink>
         <!--<RouterLink to="/update-restaurant">Update Restaurant</RouterLink>  *** NOT IN USE *** -->
@@ -9,6 +10,7 @@
 
 <script>
 import { RouterLink } from 'vue-router';
+
 
 export default {
     name: 'PageHeader',
@@ -31,10 +33,13 @@ export default {
 .nav {
     background-color: black;
     overflow: hidden;
+    display: flex;
+    border-bottom: 1px solid rgb(58, 58, 58);
+    
 }
 
 .nav a {
-    float: left;
+    float: right;
     color: rgb(253, 249, 244);
     padding: 14px 16px;
     text-align: center;
@@ -44,7 +49,10 @@ export default {
 }
 
 .nav a:hover {
-    background-color: rgb(232, 231, 231);
+    background-color: rgb(245, 245, 245);
     color: black;
+    transition: 0.7s;
+    border-radius: 1px;
+    text-align: center;
 }
 </style>

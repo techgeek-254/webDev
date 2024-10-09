@@ -1,4 +1,5 @@
 Check Node version:   		node -v
 Check npm version:    		npm -v
 Install Vue cli globally:  	npm create vue@latest
-Start vue project		npm run serve
+Start vue project		npm run serve or npm run dev
+Start json server.    		npx json-server db.json

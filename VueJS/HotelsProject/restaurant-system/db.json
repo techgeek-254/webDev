@@ -1,0 +1,132 @@
+{
+  "users": [
+    {
+      "id": "e074",
+      "name": "test",
+      "email": "test@test.com",
+      "password": "test123"
+    },
+    {
+      "id": "2d33",
+      "name": "",
+      "email": "",
+      "password": ""
+    }
+  ],
+  "restaurants": [
+    {
+      "name": "Faeva Foods Limited",
+      "address": "Ruiru, By-Pass, Membly - KENYA",
+      "contact": "254789456987",
+      "id": "833f"
+    },
+    {
+      "name": "Fanaka Hotels Ke",
+      "address": "Mombasa Kenya",
+      "contact": "+254499744552",
+      "id": "a3eb"
+    },
+    {
+      "name": "Delights Bites T",
+      "address": "4th Street, NRB",
+      "contact": "+198762534738",
+      "id": "1ab3"
+    },
+    {
+      "name": "Chill n Relax Lounge",
+      "address": "Brook Street, NYC - USA.",
+      "contact": "+148765482395",
+      "id": "3a40"
+    },
+    {
+      "name": "Moderna Eatery",
+      "address": "Uganda Road, Kampala",
+      "contact": "+255342563746",
+      "id": "773a"
+    },
+    {
+      "name": "Dining Steak House",
+      "address": "North Dakota, USA",
+      "contact": "+354628376549",
+      "id": "a0cb"
+    },
+    {
+      "id": "b402",
+      "name": "Elegance Fishes",
+      "address": "Illinois Street, USA",
+      "contact": "+1002354675890"
+    },
+    {
+      "id": "3821",
+      "name": "Tasty Restaurant and Dine-Outs",
+      "address": "Mombasa Road, Ke",
+      "contact": "+253756448739"
+    },
+    {
+      "name": "Pikana Foods",
+      "address": "Ghana Street, Ghana",
+      "contact": "+235876354263",
+      "id": "fcf4"
+    },
+    {
+      "id": "0757",
+      "name": "Tropical Islands Hotels",
+      "address": "Ibiza Street, Jamaica",
+      "contact": "+67583936458"
+    },
+    {
+      "id": "8515",
+      "name": "Crowne Plaza Nairobi Airport, an IHG Hotel",
+      "address": "Nairobi Airport",
+      "contact": "+235876354263"
+    },
+    {
+      "id": "d728",
+      "name": "Argyle Grand Hotel Nairobi Airport",
+      "address": "Nairobi Airport",
+      "contact": "+148765482390"
+    },
+    {
+      "id": "f95f",
+      "name": "Best Western Plus Westlands",
+      "address": "Westlands, Nairobi",
+      "contact": "+148765482395"
+    },
+    {
+      "id": "6004",
+      "name": "Nairobi Serena Hotel",
+      "address": "Nairobi, Kenya",
+      "contact": "+255342563746"
+    },
+    {
+      "id": "eccf",
+      "name": "Fairview Hotel",
+      "address": "Nairobi, Kenya",
+      "contact": "+148765482395"
+    },
+    {
+      "id": "e504",
+      "name": "Four Points By Sheraton Nairobi Hurlingham",
+      "address": "Nairobi, Kenya",
+      "contact": "+255342563746"
+    },
+    {
+      "id": "fb6e",
+      "name": "Ole Sereni",
+      "address": "Nairobi, Kenya",
+      "contact": "+148765482390"
+    },
+    {
+      "id": "4231",
+      "name": "Sarova Panafric Hotel",
+      "address": "Nairobi, Kenya",
+      "contact": "+255342563746"
+    },
+    {
+      "id": "8a8e",
+      "name": "Villa Rosa Kempinski",
+      "address": "Nairobi, Kenya",
+      "contact": "+255342563746"
+    }
+  ]
+}
