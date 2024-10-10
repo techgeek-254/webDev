@@ -15,19 +15,13 @@
   ],
   "restaurants": [
     {
-      "name": "Faeva Foods Limited",
-      "address": "Ruiru, By-Pass, Membly - KENYA",
-      "contact": "254789456987",
-      "id": "833f"
-    },
-    {
-      "name": "Fanaka Hotels Ke",
+      "name": "Fanaka Hotels Kenya",
       "address": "Mombasa Kenya",
       "contact": "+254499744552",
       "id": "a3eb"
     },
     {
-      "name": "Delights Bites T",
+      "name": "Delights Bites Tasties",
       "address": "4th Street, NRB",
       "contact": "+198762534738",
       "id": "1ab3"
