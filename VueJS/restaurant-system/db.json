@@ -11,13 +11,19 @@
       "name": "",
       "email": "",
       "password": ""
+    },
+    {
+      "id": "d84e",
+      "name": "John Mutua",
+      "email": "john@test.com",
+      "password": "john123"
     }
   ],
   "restaurants": [
     {
       "name": "Fanaka Hotels Kenya",
-      "address": "Mombasa Kenya",
-      "contact": "+254499744552",
+      "address": "Mombasa KE",
+      "contact": "+254499744559",
       "id": "a3eb"
     },
     {
@@ -45,10 +51,10 @@
       "id": "a0cb"
     },
     {
-      "id": "b402",
       "name": "Elegance Fishes",
       "address": "Illinois Street, USA",
-      "contact": "+1002354675890"
+      "contact": "+100235467589",
+      "id": "b402"
     },
     {
       "id": "3821",
@@ -63,10 +69,10 @@
       "id": "fcf4"
     },
     {
-      "id": "0757",
       "name": "Tropical Islands Hotels",
       "address": "Ibiza Street, Jamaica",
-      "contact": "+67583936458"
+      "contact": "+675839364581",
+      "id": "0757"
     },
     {
       "id": "8515",
@@ -121,6 +127,12 @@
       "name": "Villa Rosa Kempinski",
       "address": "Nairobi, Kenya",
       "contact": "+255342563746"
+    },
+    {
+      "id": "2381",
+      "name": "Mtito Andei Snacks",
+      "address": "Makueni- Kenya",
+      "contact": "+235876354263"
     }
   ]
 }

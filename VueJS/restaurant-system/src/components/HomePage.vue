@@ -9,10 +9,10 @@
                 Page.</h1>
             <table id="restaurant">
                 <tr>
-                    <th>Id</th>
-                    <th>Name</th>
-                    <th>Contact</th>
-                    <th>Address</th>
+                    <th>ID</th>
+                    <th>Restaurant Name</th>
+                    <th>Telephone Contacts</th>
+                    <th>Location / Address</th>
                     <th>Actions</th>
 
                 </tr>
