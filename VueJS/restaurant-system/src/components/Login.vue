@@ -1,21 +1,23 @@
 <template>
-   <div class="loginPageElements">
-   <img class="logo" src="../assets/mainLogo.jpg" alt="faeva_foods_logo">
-    <h1 class="h1-login">Login</h1>
-    <div class="theLoginForm">
-        <input type="email" v-model="email" placeholder="Enter your Email">
-        <input type="password" v-model="password" placeholder="Enter your Password">
-        <button v-on:click="login" class="loginbtn">Login</button>
-        <p>
-            <RouterLink to="/sign-up">Sign Up</RouterLink>
-        </p>
+    <div class="loginPageElements">
+        <img class="logo" src="../assets/mainLogo.jpg" alt="faeva_foods_logo">
+        <h1 class="h1-login">Login</h1>
+        <div class="theLoginForm">
+            <input type="email" v-model="email" placeholder="Enter your Email">
+            <input type="password" v-model="password" placeholder="Enter your Password">
+            <button v-on:click="login" class="loginbtn">Login</button>
+            <p>
+                <RouterLink to="/sign-up">Sign Up</RouterLink>
+            </p>
+        </div>
     </div>
-</div>
-<Html>
+    <Html>
+
     <body>
-        
+
     </body>
-</Html>
+
+    </Html>
 </template>
 
 <script>
@@ -34,8 +36,7 @@ export default {
             let result = await axios.get(
                 `http://localhost:3000/users?email=${this.email}&password=${this.password}`
             )
-            if(result.status==200 && result.data.length>0)
-            {
+            if (result.status == 200 && result.data.length > 0) {
                 localStorage.setItem("user-info", JSON.stringify(result.data[0]))
                 this.$router.push({ name: 'HomePage' })
             }
@@ -52,12 +53,13 @@ export default {
 </script>
 
 <!-- START OF STYLING FOR THIS PAGE ONLY -->
+
 <style scoped>
-body{
+body {
     background-image: url(../assets/backgroundImages/signupBackground.jpg);
     background-size: cover;
     background-position: center;
     background-repeat: repeat;
-    
+
 }
 </style>
