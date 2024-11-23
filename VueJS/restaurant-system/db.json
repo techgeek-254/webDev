@@ -133,6 +133,12 @@
       "name": "Maybe Foods Inc",
       "address": "Ghana Street, Ghana",
       "contact": "+235876354263"
+    },
+    {
+      "id": "dbf5",
+      "name": "Tech Geek",
+      "address": "India Road",
+      "contact": "+100235467589"
     }
   ]
 }
