@@ -24,40 +24,34 @@
       "name": "Fanaka Hotels Kenya",
       "address": "Mombasa KE",
       "contact": "+254499744559",
-      "id": "a3eb"
+      "id": "1"
     },
     {
       "name": "Delights Bites Tasties",
       "address": "4th Street, NRB",
       "contact": "+198762534738",
-      "id": "1ab3"
-    },
-    {
-      "name": "Chill n Relax Lounge",
-      "address": "Brook Street, NYC - USA.",
-      "contact": "+148765482395",
-      "id": "3a40"
+      "id": "2"
     },
     {
       "name": "Moderna Eatery",
       "address": "Uganda Road, Kampala",
       "contact": "+255342563746",
-      "id": "773a"
+      "id": "4"
     },
     {
       "name": "Dining Steak House",
       "address": "North Dakota, USA",
       "contact": "+354628376549",
-      "id": "a0cb"
+      "id": "5"
     },
     {
       "name": "Elegance Fishes",
       "address": "Illinois Street, USA",
       "contact": "+100235467589",
-      "id": "b402"
+      "id": "6"
     },
     {
-      "id": "3821",
+      "id": "7",
       "name": "Tasty Restaurant and Dine-Outs",
       "address": "Mombasa Road, Ke",
       "contact": "+253756448739"
@@ -66,72 +60,78 @@
       "name": "Pikana Foods",
       "address": "Ghana Street, Ghana",
       "contact": "+235876354263",
-      "id": "fcf4"
+      "id": "8"
     },
     {
       "name": "Tropical Islands Hotels",
       "address": "Ibiza Street, Jamaica",
       "contact": "+675839364581",
-      "id": "0757"
+      "id": "9"
     },
     {
-      "id": "8515",
+      "id": "10",
       "name": "Crowne Plaza Nairobi Airport, an IHG Hotel",
       "address": "Nairobi Airport",
       "contact": "+235876354263"
     },
     {
-      "id": "d728",
+      "id": "11",
       "name": "Argyle Grand Hotel Nairobi Airport",
       "address": "Nairobi Airport",
       "contact": "+148765482390"
     },
     {
-      "id": "f95f",
+      "id": "12",
       "name": "Best Western Plus Westlands",
       "address": "Westlands, Nairobi",
       "contact": "+148765482395"
     },
     {
-      "id": "6004",
+      "id": "13",
       "name": "Nairobi Serena Hotel",
       "address": "Nairobi, Kenya",
       "contact": "+255342563746"
     },
     {
-      "id": "eccf",
+      "id": "14",
       "name": "Fairview Hotel",
       "address": "Nairobi, Kenya",
       "contact": "+148765482395"
     },
     {
-      "id": "e504",
+      "id": "15",
       "name": "Four Points By Sheraton Nairobi Hurlingham",
       "address": "Nairobi, Kenya",
       "contact": "+255342563746"
     },
     {
-      "id": "fb6e",
+      "id": "16",
       "name": "Ole Sereni",
       "address": "Nairobi, Kenya",
       "contact": "+148765482390"
     },
     {
-      "id": "4231",
+      "id": "17",
       "name": "Sarova Panafric Hotel",
       "address": "Nairobi, Kenya",
       "contact": "+255342563746"
     },
     {
-      "id": "8a8e",
+      "id": "18",
       "name": "Villa Rosa Kempinski",
       "address": "Nairobi, Kenya",
       "contact": "+255342563746"
     },
     {
-      "id": "2381",
+      "id": "19",
       "name": "Mtito Andei Snacks",
       "address": "Makueni- Kenya",
+      "contact": "+235876354263"
+    },
+    {
+      "id": "35f0",
+      "name": "Maybe Foods Inc",
+      "address": "Ghana Street, Ghana",
       "contact": "+235876354263"
     }
   ]

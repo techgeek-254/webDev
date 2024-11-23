@@ -214,12 +214,22 @@ catch (error) {
 
             <div>
               <button
-                class="bg-green-500 hover:bg-green-600 text-white font-bold py-2 px-4 rounded-full w-full focus:outline-none focus:shadow-outline"
+                class="bg-green-500 hover:bg-green-600 text-white font-bold border-green-500 border-solid border-2 hover:text-white py-2 px-4 rounded-full w-2/5 focus:shadow-outline"
                 type="submit"
               >
                 Add Job
               </button>
+
+
+              <button class="bg-white hover:bg-green-500 border-green-500 border-solid border-2 text-green-500 hover:text-white font-bold py-2 px-4 rounded-full w-2/5 ml-5 focus:shadow-outline" type="button">
+              <RouterLink :to="'/'"
+              >
+              Cancel</RouterLink></button>
+
+
             </div>
+
+            
           </form>
         </div>
       </div>
